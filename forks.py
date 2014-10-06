@@ -47,16 +47,16 @@ def clone(repos, forkid):
 
     print command
 
-    # if (nused + repoSize > nmax):
-    #   now0 = time.time()
-    #   print str (nused) + ' cloned in ' + str (now0 - now) 
-    #   now = time.time()
-    #  envoy.run ('rsync -ae "ssh -p2200" hg/* cdaffron@da2.eecs.utk.edu:hg')
-    #  envoy.run ('rsync -ae "ssh -p2200" git/* cdaffron@da2.eecs.utk.edu:git')
-    #   envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
-    #   now = time.time()
-    #   print str (nused) + ' synced in ' + str (now - now0) 
-    #   nused = 0
+    if (nused + repoSize > nmax):
+      now0 = time.time()
+      print str (nused) + ' cloned in ' + str (now0 - now) 
+      now = time.time()
+      envoy.run ('rsync -ae "ssh -p2200" hg/* cdaffron@da2.eecs.utk.edu:hg')
+      envoy.run ('rsync -ae "ssh -p2200" git/* cdaffron@da2.eecs.utk.edu:git')
+      envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
+      now = time.time()
+      print str (nused) + ' synced in ' + str (now - now0) 
+      nused = 0
     
     if( versContType == 'hg' ):
       startHg = time.time()
