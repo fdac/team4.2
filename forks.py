@@ -1,9 +1,11 @@
 import multiprocessing
+import requests
+import subprocess
 import os
+import io
 from sys import argv, exit
 import argparse
 import envoy, time
-import subprocess
 
 def clean(str):
   return str.replace('\n', '')
@@ -15,8 +17,17 @@ def diskCap():
 
 def clone(repos, forkid):
 
-  errorFile = open('errors' + str(forkId) + '.txt', 'w')
-  statFile = open('stats' + str(forkId) + '.txt', 'w')
+  #repos.reverse()
+  if((forkid % 2) == 0):
+    os.chdir('/disk1')
+  else:
+    os.chdir('/disk2')
+  os.mkdir(str(forkid));
+  os.chdir(str(forkid));
+  f = open('errors' + str(forkid) + '.txt', 'w')
+  s = open('stats' + str(forkid) + '.txt', 'w')
+  s.write("TEST!!!!!!!!\n")
+  f.write("TEST2\n")
   start = time.time()
   now = start
   nmax = diskCap()
@@ -26,6 +37,8 @@ def clone(repos, forkid):
   totalTime = 0
   gitTime = 0
   hgTime = 0
+  prevSize = 0
+  rsyncThresh = 10737418240  # 10 GB
   
   for repo in repos:
     splitRepo = repo.split(';')
@@ -47,50 +60,71 @@ def clone(repos, forkid):
 
     print command
 
-    if (nused + repoSize > nmax):
+    nmax = diskCap()
+
+    if ((repoSize > (float(nmax) * 0.25)) or (prevSize > rsyncThresh)):
       now0 = time.time()
-      print str (nused) + ' cloned in ' + str (now0 - now) 
+      s.write('RSYNC!!!!!\n')
+      s.write('    ' + str (nused) + ' cloned in ' + str (now0 - now) + '\n')
       now = time.time()
       envoy.run ('rsync -ae "ssh -p2200" hg/* cdaffron@da2.eecs.utk.edu:hg')
       envoy.run ('rsync -ae "ssh -p2200" git/* cdaffron@da2.eecs.utk.edu:git')
       envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
       now = time.time()
-      print str (nused) + ' synced in ' + str (now - now0) 
+      s.write('    ' + str (nused) + ' synced in ' + str (now - now0) + '\n')
+      s.flush()
+      os.fsync(s.fileno())
       nused = 0
     
-    if( versContType == 'hg' ):
+    api = requests.get('https://api.bitbucket.org/2.0/repositories/' + target)
+
+    if((versContType == 'hg') and (api.status_code != 403) ):
       startHg = time.time()
       r = envoy.run (command)
       endHg = time.time()
       hgTime += (endHg - startHg)
-    else:
+    elif( api.status_code != 403 ):
       startGit = time.time()
       r = envoy.run(command)
       endGit = time.time()
       gitTime += (endGit - startGit)
-    
-    if( r.status_code != 0):
-      errorFile.write('Repo ' + target + ' failed to clone')
+	
+    if((r.status_code != 0) or (api.status_code == 403)):
+      f.write(versContType + ' repo ' + target + ' failed to clone')
+      if(api.status_code == 403):
+        f.write(' PRIVATE\n')
+      else:
+        f.write('\n')
+      f.flush()
+      os.fsync(f.fileno())
     else:
+      prevSize = repoSize
       nused += repoSize
       totalCloned += repoSize
       totalTime = time.time() - start;
+      s.write('Repo ' + target + 'cloned\n')
+      s.write('\t' + str(totalCloned) + ' bytes cloned\n')
+      s.write('\t' + str((float(totalCloned) / float(totalSize)) * 100) + '% done\n')
+      s.write('\t' + str(totalTime) + ' seconds elapsed\n')
+      s.write('\t  Git:' + str(gitTime) + '\n')
+      s.write('\t  Hg: ' + str(hgTime) + '\n')
+      print 'Repo Cloned!\n'
+      s.flush()
+      os.fsync(s.fileno())
 
-      s = 'PID: ' + str(forkid) + '\n'
-      s += '\t' + str(totalCloned) + ' bytes cloned' + '\n'
-      s += '\t' + str((float(totalCloned) / float(totalSize)) * 100) + '% done' + '\n'
-      s += '\t' + str(totalTime) + ' seconds elapsed' + '\n'
-      s += '\tGit:' + str(gitTime) + '\n'
-      s += '\tHg: ' + str(hgTime) + '\n'
-
-      print s
-      statFile.write(s)
-
-  errorFile.close()
-  statFile.close()
-
+  now0 = time.time()
+  s.write('Final RSYNC\n')
+  s.write('    ' + str(nused) + ' cloned in ' + str(now0 - now) + '\n')
+  #now = time.time()
+  envoy.run('rsync -ae "ssh -p2200" hg/* cdaffron@da2.eecs.utk.edu:hg')
+  envoy.run('rsync -ae "ssh -p2200" git/* cdaffron@da2.eecs.utk.edu:git')
+  envoy.run('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
+  now = time.time()
+  s.write('    ' + str(nused) + ' synced in ' + str(now - now0) + '\n')
+  nused = 0
 
 numCores = multiprocessing.cpu_count()
+#numCores = 1
 forkId = 0
 
 parser = argparse.ArgumentParser(description='Creates a clone process for every core.');
@@ -125,7 +159,7 @@ for i in range(numCores):
   forkId = i
   if(os.fork() == 0):
     #print 'Process: ' + str(forkId)
-    clone(processRepos[0], forkId)
+    clone(processRepos[forkId], forkId)
     break;
 
 
