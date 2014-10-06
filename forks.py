@@ -3,6 +3,7 @@ import os
 from sys import argv, exit
 import argparse
 import envoy, time
+import subprocess
 
 def clean(str):
   return str.replace('\n', '')
@@ -14,7 +15,8 @@ def diskCap():
 
 def clone(repos, forkid):
 
-  f = open('errors' + str(forkid) + '.txt', 'w')
+  errorFile = open('errors' + str(forkId) + '.txt', 'w')
+  statFile = open('stats' + str(forkId) + '.txt', 'w')
   start = time.time()
   now = start
   nmax = diskCap()
@@ -45,40 +47,48 @@ def clone(repos, forkid):
 
     print command
 
-    if (nused + repoSize > nmax):
-      now0 = time.time()
-      print str (nused) + ' cloned in ' + str (now0 - now) 
-      now = time.time()
-	  envoy.run ('rsync -ae "ssh -p2200" hg/* cdaffron@da2.eecs.utk.edu:hg')
-	  envoy.run ('rsync -ae "ssh -p2200" git/* cdaffron@da2.eecs.utk.edu:git')
-      envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
-      now = time.time()
-      print str (nused) + ' synced in ' + str (now - now0) 
-      nused = 0
+    # if (nused + repoSize > nmax):
+    #   now0 = time.time()
+    #   print str (nused) + ' cloned in ' + str (now0 - now) 
+    #   now = time.time()
+    #  envoy.run ('rsync -ae "ssh -p2200" hg/* cdaffron@da2.eecs.utk.edu:hg')
+    #  envoy.run ('rsync -ae "ssh -p2200" git/* cdaffron@da2.eecs.utk.edu:git')
+    #   envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
+    #   now = time.time()
+    #   print str (nused) + ' synced in ' + str (now - now0) 
+    #   nused = 0
     
-	if( versContType == 'hg' ):
-	  startHg = time.time()
-	  r = envoy.run (command)
-	  endHg = time.time()
-	  hgTime += (endHg - startHg)
-	else:
-	  startGit = time.time()
-	  r = envoy.run(command)
-	  endGit = time.time()
-	  gitTime += (endGit - startGit)
-	
-	if( r.status_code != 0):
-	  f.write('Repo ' + target + ' failed to clone')
-	else:
-	  nused += repoSize
-	  totalCloned += repoSize
-	  totalTime = time.time() - start;
-      print 'PID: ' + str(forkid)
-      print '    ' + str(totalCloned) + ' bytes cloned'
-      print '    ' + str((float(totalCloned) / float(totalSize)) * 100) + '% done'
-      print '	 ' + str(totalTime) + ' seconds elapsed'
-	  print '      Git:' + str(gitTime)
-	  print '      Hg: ' + str(hgTime)
+    if( versContType == 'hg' ):
+      startHg = time.time()
+      r = envoy.run (command)
+      endHg = time.time()
+      hgTime += (endHg - startHg)
+    else:
+      startGit = time.time()
+      r = envoy.run(command)
+      endGit = time.time()
+      gitTime += (endGit - startGit)
+    
+    if( r.status_code != 0):
+      errorFile.write('Repo ' + target + ' failed to clone')
+    else:
+      nused += repoSize
+      totalCloned += repoSize
+      totalTime = time.time() - start;
+
+      s = 'PID: ' + str(forkid) + '\n'
+      s += '\t' + str(totalCloned) + ' bytes cloned' + '\n'
+      s += '\t' + str((float(totalCloned) / float(totalSize)) * 100) + '% done' + '\n'
+      s += '\t' + str(totalTime) + ' seconds elapsed' + '\n'
+      s += '\tGit:' + str(gitTime) + '\n'
+      s += '\tHg: ' + str(hgTime) + '\n'
+
+      print s
+      statFile.write(s)
+
+  errorFile.close()
+  statFile.close()
+
 
 numCores = multiprocessing.cpu_count()
 forkId = 0
@@ -115,7 +125,7 @@ for i in range(numCores):
   forkId = i
   if(os.fork() == 0):
     #print 'Process: ' + str(forkId)
-	clone(processRepos[0], forkid)
+    clone(processRepos[0], forkId)
     break;
 
 
