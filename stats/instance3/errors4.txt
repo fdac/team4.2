@@ -1,0 +1,21 @@
+TEST2
+hg repo nirev/atag-gmf-editor failed to clone
+git repo ddark/umbracore4 failed to clone
+hg repo jdheywood/haloengine failed to clone
+git repo alishir/papers failed to clone
+git repo kalleloko/greenroof failed to clone
+git repo lkalif/opensimulator failed to clone
+hg repo kkris/pypy failed to clone
+hg repo kevinshen/ios-tutorials failed to clone
+hg repo richardwhiuk/ogre failed to clone
+git repo threeve/whirlyglobe failed to clone
+hg repo techtonik/scons-website failed to clone
+hg repo tim_dos_santos/ogre-tip-ogrekit-integration failed to clone
+hg repo vitefalcon/ogre failed to clone
+hg repo baker_linden/voorhees_maint-2309 failed to clone
+git repo bluestatedigital/cookbook-java failed to clone
+git repo bminor/mesa-mesa failed to clone
+hg repo davep/viewer-beta-maint-1953 failed to clone
+hg repo oz_linden/storm-1908 failed to clone
+hg repo kokua/3p-boost-64 failed to clone
+hg repo hong_june_kim/python_doc_ko failed to clone

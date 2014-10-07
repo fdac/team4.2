@@ -1,0 +1,26 @@
+TEST2
+git repo shine911/s-kernel failed to clone
+git repo tien_quach_it/ghevm failed to clone
+git repo orangelv/mizuno-baseballglove-images failed to clone
+git repo wsmirnow/matterhorn-osnabr-ck-fork failed to clone
+hg repo toscawidgets/tw.dojo failed to clone
+git repo Oppen/vulture failed to clone
+git repo cghub/cghub-target-cgci-metadata failed to clone
+hg repo VahidN/ntextcat failed to clone
+hg repo joachimjacob/galaxy-central-fixing-discordant-reporting-tophat2 failed to clone
+hg repo rpark37/galaxy-central-rpark failed to clone
+hg repo jmchilton/galaxy-central-cut-column-ranges failed to clone
+hg repo cormaza/pentaho_report_designer failed to clone
+hg repo joelbalestra/xnat_builder_cnda_condr failed to clone
+git repo twasyl/slideshowfx failed to clone
+git repo wantowan2/android_kernel_samsung_msm8660-common-mo11 failed to clone
+hg repo tjylsi/pelikehitys failed to clone
+git repo pallenking/factalworkbenchb failed to clone
+git repo abs-cbn/mychos failed to clone
+git repo emileaublet/adm failed to clone
+hg repo synl0rd/smt failed to clone
+git repo scarvy/flowerweb failed to clone
+git repo awruef/llvm-sym failed to clone
+git repo jialvarez/wikitude-example failed to clone
+git repo franciscopreller/templatesdojo failed to clone
+git repo cadangelo/moab failed to clone

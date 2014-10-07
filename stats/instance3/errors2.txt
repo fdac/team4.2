@@ -1,0 +1,22 @@
+TEST2
+git repo aparlett/galactic-armory failed to clone
+hg repo Dzef/core failed to clone
+hg repo slawton/windturbinemdo-stevebitb failed to clone
+git repo engagis/video_test failed to clone
+git repo almond/efinity failed to clone
+git repo Strandmatte/physicsbasedmodelling failed to clone
+hg repo merov_linden/viewer-maint-2287 failed to clone
+git repo KKDeep/twd failed to clone
+git repo KaijiHakaroku/android_prebuilt failed to clone
+hg repo keramida/doc-work failed to clone
+git repo smileconsortium/smile_global failed to clone
+git repo tcorcoran/sarcasm failed to clone
+hg repo tpn/pyparallel failed to clone
+git repo martinruefenacht/rtsph failed to clone
+git repo myrrlyn/myrrlyn.com failed to clone
+hg repo callum_linden/viewer-development-cho-test failed to clone
+hg repo obscurestar/viewer-vivox-updates failed to clone
+hg repo oz_linden/viewer-buildchg failed to clone
+git repo psychopixel/g-g failed to clone
+git repo Leask/pal_cd failed to clone
+hg repo python_mirrors/sandbox-registervm failed to clone

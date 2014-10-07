@@ -1,0 +1,24 @@
+TEST2
+git repo natospecialforces/natomaps failed to clone
+hg repo dcarrera/papers failed to clone
+git repo GrTV/xbmc failed to clone
+hg repo starlightstudios/the-courageous-captain-pussyfoot failed to clone
+git repo simida/eecs470g12 failed to clone
+hg repo 1100578/lojasonlinegrupoaps failed to clone
+git repo Kunal_ess/lmmr-ess failed to clone
+git repo udse/refactoring-study failed to clone
+git repo brasseld/openesb-core failed to clone
+git repo modelga/pwag_gravity failed to clone
+git repo binadit/immunobank failed to clone
+git repo nam81/qt-sfm failed to clone
+hg repo nibrahim/pypy failed to clone
+hg repo spetelin/lessons failed to clone
+hg repo MartinRJ/cool-nipples-bug failed to clone
+git repo smil3y/linux failed to clone
+hg repo evzijst/pypy failed to clone
+git repo dmhagar/empyrea-public failed to clone
+git repo pech90/projekt-grupowy-sdn failed to clone
+git repo david_souza/youtube-center failed to clone
+hg repo yida/gazebo failed to clone
+git repo mindclickuk/moodle failed to clone
+git repo cadet/seamass failed to clone
