@@ -73,6 +73,8 @@ def clone(repos, forkid):
       s.write('RSYNC!!!!!\n')
       s.write('    ' + str (nused) + ' cloned in ' + str (now0 - now) + '\n')
       now = time.time()
+      s.write('    next size: ' + str(repoSize) + '\n')
+      s.write('    limit: ' + str(float(nmax) * 0.25) + '\n')
       s.write('    current dir: ' + os.getcwd() + '\n')
       envoy.run ('rsync -ae "ssh -p2200" hg/ cdaffron@da2.eecs.utk.edu:hg')
       envoy.run ('rsync -ae "ssh -p2200" git/ cdaffron@da2.eecs.utk.edu:git')
