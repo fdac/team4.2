@@ -22,8 +22,11 @@ def clone(repos, forkid):
     os.chdir('/disk1')
   else:
     os.chdir('/disk2')
-  os.mkdir(str(forkid));
+  
+  if not os.path.isdir(str(forkid)):
+    os.mkdir(str(forkid));
   os.chdir(str(forkid));
+  
   f = open('errors' + str(forkid) + '.txt', 'w')
   s = open('stats' + str(forkid) + '.txt', 'w')
   s.write("TEST!!!!!!!!\n")
@@ -59,6 +62,9 @@ def clone(repos, forkid):
       command = 'git clone --mirror https://bitbucket.org/' + target + ' git/' + dest
 
     print command
+    s.write(command + '\n')
+    s.flush()
+    os.fsync(s.fileno())
 
     nmax = diskCap()
 
@@ -67,8 +73,9 @@ def clone(repos, forkid):
       s.write('RSYNC!!!!!\n')
       s.write('    ' + str (nused) + ' cloned in ' + str (now0 - now) + '\n')
       now = time.time()
-      envoy.run ('rsync -ae "ssh -p2200" hg/* cdaffron@da2.eecs.utk.edu:hg')
-      envoy.run ('rsync -ae "ssh -p2200" git/* cdaffron@da2.eecs.utk.edu:git')
+      s.write('    current dir: ' + os.getcwd() + '\n')
+      envoy.run ('rsync -ae "ssh -p2200" hg/ cdaffron@da2.eecs.utk.edu:hg')
+      envoy.run ('rsync -ae "ssh -p2200" git/ cdaffron@da2.eecs.utk.edu:git')
       envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
       now = time.time()
       s.write('    ' + str (nused) + ' synced in ' + str (now - now0) + '\n')
