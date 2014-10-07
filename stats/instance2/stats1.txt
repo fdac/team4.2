@@ -1,0 +1,571 @@
+TEST!!!!!!!!
+hg clone -U https://bitbucket.org/sr105/linux-sakoman hg/sr105_linux-sakoman
+RSYNC!!!!!
+    0 cloned in 0.0231909751892
+    next size: 5158118042
+    limit: 19544144.0
+    current dir: /disk2/1
+    0 synced in 4.97192192078
+hg clone -U https://bitbucket.org/Feriluce/gamedev-exploration-game hg/Feriluce_gamedev-exploration-game
+RSYNC!!!!!
+    0 cloned in 904.560083151
+    next size: 2527857548
+    limit: 17049913.0
+    current dir: /disk2/1
+    0 synced in 3.39467287064
+Repo Feriluce/gamedev-exploration-gamecloned
+	2527857548 bytes cloned
+	4.91480482996% done
+	1682.88832808 seconds elapsed
+	  Git:0
+	  Hg: 1673.38289309
+git clone --mirror https://bitbucket.org/Pramila30/anusaaraka git/Pramila30_anusaaraka
+RSYNC!!!!!
+    2527857548 cloned in 769.945677996
+    next size: 1574264736
+    limit: 15210189.0
+    current dir: /disk2/1
+    2527857548 synced in 769.205437183
+Repo Pramila30/anusaarakacloned
+	4102122284 bytes cloned
+	7.97558012335% done
+	2544.88314295 seconds elapsed
+	  Git:92.3074219227
+	  Hg: 1673.38289309
+hg clone -U https://bitbucket.org/emmie/idempiere hg/emmie_idempiere
+RSYNC!!!!!
+    1574264736 cloned in 92.7868947983
+    next size: 1426153384
+    limit: 14255850.0
+    current dir: /disk2/1
+    1574264736 synced in 192.462339163
+Repo emmie/idempierecloned
+	5528275668 bytes cloned
+	10.7483888781% done
+	3099.88946891 seconds elapsed
+	  Git:92.3074219227
+	  Hg: 2035.44933009
+hg clone -U https://bitbucket.org/a42niem/idempiere-swing hg/a42niem_idempiere-swing
+RSYNC!!!!!
+    1426153384 cloned in 364.726966858
+    next size: 1290619088
+    limit: 13382091.0
+    current dir: /disk2/1
+    1426153384 synced in 3093.56064415
+Repo a42niem/idempiere-swingcloned
+	6818894756 bytes cloned
+	13.257684124% done
+	6445.2356081 seconds elapsed
+	  Git:92.3074219227
+	  Hg: 2284.50928998
+git clone --mirror https://bitbucket.org/h4ck3rm1k3/federal-election-commission-aggregation-2004 git/h4ck3rm1k3_federal-election-commission-aggregation-2004
+RSYNC!!!!!
+    1290619088 cloned in 249.607823849
+    next size: 1172803714
+    limit: 10960010.0
+    current dir: /disk2/1
+    1290619088 synced in 3419.57684302
+Repo h4ck3rm1k3/federal-election-commission-aggregation-2004cloned
+	7991698470 bytes cloned
+	15.5379159997% done
+	10002.134877 seconds elapsed
+	  Git:229.123083115
+	  Hg: 2284.50928998
+git clone --mirror https://bitbucket.org/blogaristic/facultate git/blogaristic_facultate
+RSYNC!!!!!
+    1172803714 cloned in 137.319784164
+    next size: 1025671692
+    limit: 8247475.0
+    current dir: /disk2/1
+    1172803714 synced in 375.284629822
+Repo blogaristic/facultatecloned
+	9017370162 bytes cloned
+	17.532085406% done
+	10448.404058 seconds elapsed
+	  Git:299.606281281
+	  Hg: 2284.50928998
+hg clone -U https://bitbucket.org/AnomalyDetection/snort.ad-vm hg/AnomalyDetection_snort.ad-vm
+RSYNC!!!!!
+    1025671692 cloned in 70.9820551872
+    next size: 913492825
+    limit: 7467338.0
+    current dir: /disk2/1
+    1025671692 synced in 280.446570873
+Repo AnomalyDetection/snort.ad-vmcloned
+	9930862987 bytes cloned
+	19.3081502606% done
+	10855.289978 seconds elapsed
+	  Git:299.606281281
+	  Hg: 2410.34315896
+hg clone -U https://bitbucket.org/nickrsan/hydroinformatics hg/nickrsan_hydroinformatics
+RSYNC!!!!!
+    913492825 cloned in 126.441384077
+    next size: 846751270
+    limit: 6631466.0
+    current dir: /disk2/1
+    913492825 synced in 203.549813032
+Repo nickrsan/hydroinformaticscloned
+	10777614257 bytes cloned
+	20.9544523771% done
+	11175.617152 seconds elapsed
+	  Git:299.606281281
+	  Hg: 2526.66555381
+git clone --mirror https://bitbucket.org/pytlus93/girls_wallpapers git/pytlus93_girls_wallpapers
+RSYNC!!!!!
+    846751270 cloned in 117.429868937
+    next size: 812308959
+    limit: 6105692.0
+    current dir: /disk2/1
+    846751270 synced in 349.054427862
+Repo pytlus93/girls_wallpaperscloned
+	11589923216 bytes cloned
+	22.5337897881% done
+	11614.0714209 seconds elapsed
+	  Git:387.853603363
+	  Hg: 2526.66555381
+git clone --mirror https://bitbucket.org/tresysmobile/kernel-msm git/tresysmobile_kernel-msm
+RSYNC!!!!!
+    812308959 cloned in 88.7473011017
+    next size: 753739402
+    limit: 5512758.0
+    current dir: /disk2/1
+    812308959 synced in 152.848969936
+Repo tresysmobile/kernel-msmcloned
+	12343662618 bytes cloned
+	23.9992529256% done
+	11936.1239791 seconds elapsed
+	  Git:556.517587185
+	  Hg: 2526.66555381
+hg clone -U https://bitbucket.org/ASalexander/adempiere361-mbd hg/ASalexander_adempiere361-mbd
+RSYNC!!!!!
+    753739402 cloned in 169.204579115
+    next size: 718225114
+    limit: 5118076.0
+    current dir: /disk2/1
+    753739402 synced in 154.732258081
+Repo ASalexander/adempiere361-mbdcloned
+	13061887732 bytes cloned
+	25.3956671587% done
+	12261.686929 seconds elapsed
+	  Git:556.517587185
+	  Hg: 2697.00240993
+git clone --mirror https://bitbucket.org/joelzhang/cocos2d-x git/joelzhang_cocos2d-x
+RSYNC!!!!!
+    718225114 cloned in 170.836562872
+    next size: 673432496
+    limit: 4630891.0
+    current dir: /disk2/1
+    718225114 synced in 2325.92843509
+Repo joelzhang/cocos2d-xcloned
+	13735320228 bytes cloned
+	26.704993029% done
+	14629.628612 seconds elapsed
+	  Git:597.996966362
+	  Hg: 2697.00240993
+git clone --mirror https://bitbucket.org/trungdv1987/vi-t-trung git/trungdv1987_vi-t-trung
+RSYNC!!!!!
+    673432496 cloned in 42.00532794
+    next size: 649808951
+    limit: 3909228.0
+    current dir: /disk2/1
+    673432496 synced in 215.361392021
+Repo trungdv1987/vi-t-trungcloned
+	14385129179 bytes cloned
+	27.9683886556% done
+	14846.5837309 seconds elapsed
+	  Git:599.025763273
+	  Hg: 2697.00240993
+git clone --mirror https://bitbucket.org/britztopher/test git/britztopher_test
+RSYNC!!!!!
+    649808951 cloned in 1.59654092789
+    next size: 636407302
+    limit: 3780056.0
+    current dir: /disk2/1
+    649808951 synced in 202.133419037
+Repo britztopher/testcloned
+	15021536481 bytes cloned
+	29.2057280319% done
+	15086.447757 seconds elapsed
+	  Git:636.212331295
+	  Hg: 2697.00240993
+git clone --mirror https://bitbucket.org/Unitess/unitess-instal git/Unitess_unitess-instal
+RSYNC!!!!!
+    636407302 cloned in 37.7286980152
+    next size: 632053117
+    limit: 3624563.0
+    current dir: /disk2/1
+    636407302 synced in 136.710517883
+Repo Unitess/unitess-instalcloned
+	15653589598 bytes cloned
+	30.4346017533% done
+	15389.213443 seconds elapsed
+	  Git:801.710506201
+	  Hg: 2697.00240993
+git clone --mirror https://bitbucket.org/ahsia/cpi311_finalproject git/ahsia_cpi311_finalproject
+RSYNC!!!!!
+    632053117 cloned in 166.055154085
+    next size: 604678493
+    limit: 3416031.0
+    current dir: /disk2/1
+    632053117 synced in 254.732041121
+Repo ahsia/cpi311_finalprojectcloned
+	16258268091 bytes cloned
+	31.6102521693% done
+	15670.6424539 seconds elapsed
+	  Git:827.766681194
+	  Hg: 2697.00240993
+git clone --mirror https://bitbucket.org/wantowan2/android_kernel_samsung_msm8660-common-44 git/wantowan2_android_kernel_samsung_msm8660-common-44
+RSYNC!!!!!
+    604678493 cloned in 26.6972539425
+    next size: 570089079
+    limit: 3268320.0
+    current dir: /disk2/1
+    604678493 synced in 126.71142602
+Repo wantowan2/android_kernel_samsung_msm8660-common-44cloned
+	16828357170 bytes cloned
+	32.7186518737% done
+	15948.559577 seconds elapsed
+	  Git:978.374333143
+	  Hg: 2697.00240993
+hg clone -U https://bitbucket.org/lost_theory/cpython hg/lost_theory_cpython
+RSYNC!!!!!
+    570089079 cloned in 151.206262827
+    next size: 554354242
+    limit: 3137335.0
+    current dir: /disk2/1
+    570089079 synced in 224.207084179
+Repo lost_theory/cpythoncloned
+	17382711412 bytes cloned
+	33.7964590106% done
+	16495.4741061 seconds elapsed
+	  Git:978.374333143
+	  Hg: 3019.15790582
+git clone --mirror https://bitbucket.org/htalebian/hamid git/htalebian_hamid
+RSYNC!!!!!
+    554354242 cloned in 322.705096006
+    next size: 536910574
+    limit: 2862601.0
+    current dir: /disk2/1
+    554354242 synced in 1315.4936378
+Repo htalebian/hamidcloned
+	17919621986 bytes cloned
+	34.8403511731% done
+	17812.5196159 seconds elapsed
+	  Git:979.425153017
+	  Hg: 3019.15790582
+git clone --mirror https://bitbucket.org/groolot/creation_2008_petit-arbre git/groolot_creation_2008_petit-arbre
+RSYNC!!!!!
+    536910574 cloned in 1.55609107018
+    next size: 510455849
+    limit: 2389391.0
+    current dir: /disk2/1
+    536910574 synced in 251.816604137
+Repo groolot/creation_2008_petit-arbrecloned
+	18430077835 bytes cloned
+	35.8328085503% done
+	18248.4781899 seconds elapsed
+	  Git:1163.07600498
+	  Hg: 3019.15790582
+hg clone -U https://bitbucket.org/kostialopuhin/pypy hg/kostialopuhin_pypy
+RSYNC!!!!!
+    510455849 cloned in 184.142469883
+    next size: 477314957
+    limit: 2101742.0
+    current dir: /disk2/1
+    510455849 synced in 267.429821968
+Repo kostialopuhin/pypycloned
+	18907392792 bytes cloned
+	36.7608315151% done
+	18732.9950471 seconds elapsed
+	  Git:1163.07600498
+	  Hg: 3235.65316582
+git clone --mirror https://bitbucket.org/btmash/islandora-setup git/btmash_islandora-setup
+RSYNC!!!!!
+    477314957 cloned in 217.086284161
+    next size: 441046992
+    limit: 1819655.0
+    current dir: /disk2/1
+    477314957 synced in 5276.21069598
+Repo btmash/islandora-setupcloned
+	19348439784 bytes cloned
+	37.6183402336% done
+	24109.1951389 seconds elapsed
+	  Git:1262.57415915
+	  Hg: 3235.65316582
+git clone --mirror https://bitbucket.org/ebilionis/solar-irradiation git/ebilionis_solar-irradiation
+RSYNC!!!!!
+    441046992 cloned in 99.9865729809
+    next size: 409370314
+    limit: 1166884.0
+    current dir: /disk2/1
+    441046992 synced in 399.355490923
+Repo ebilionis/solar-irradiationcloned
+	19757810098 bytes cloned
+	38.4142613479% done
+	24567.376004 seconds elapsed
+	  Git:1320.87287927
+	  Hg: 3235.65316582
+hg clone -U https://bitbucket.org/lahwran/pypy hg/lahwran_pypy
+RSYNC!!!!!
+    409370314 cloned in 58.8268260956
+    next size: 398055692
+    limit: 1067377.0
+    current dir: /disk2/1
+    409370314 synced in 329.49099803
+Repo lahwran/pypycloned
+	20155865790 bytes cloned
+	39.1881839288% done
+	25133.2043271 seconds elapsed
+	  Git:1320.87287927
+	  Hg: 3471.4722178
+git clone --mirror https://bitbucket.org/MLP_Rarity/pto2013_antychrysty git/MLP_Rarity_pto2013_antychrysty
+RSYNC!!!!!
+    398055692 cloned in 236.34529686
+    next size: 380541005
+    limit: 861703.0
+    current dir: /disk2/1
+    398055692 synced in 4176.39376211
+hg clone -U https://bitbucket.org/DasIch/pypy hg/DasIch_pypy
+RSYNC!!!!!
+    0 cloned in 176.397504807
+    next size: 365315279
+    limit: 8386.0
+    current dir: /disk2/1
+    0 synced in 677.297991991
+git clone --mirror https://bitbucket.org/matthieu_hughes/shamba git/matthieu_hughes_shamba
+RSYNC!!!!!
+    0 cloned in 32.8758950233
+    next size: 354421553
+    limit: 10695.0
+    current dir: /disk2/1
+    0 synced in 519.275721073
+hg clone -U https://bitbucket.org/tberger/farce hg/tberger_farce
+RSYNC!!!!!
+    0 cloned in 29.446087122
+    next size: 345498246
+    limit: 10695.0
+    current dir: /disk2/1
+    0 synced in 543.434448957
+hg clone -U https://bitbucket.org/colprog/pypy hg/colprog_pypy
+RSYNC!!!!!
+    0 cloned in 53.5398659706
+    next size: 334928448
+    limit: 10695.0
+    current dir: /disk2/1
+    0 synced in 539.411316872
+git clone --mirror https://bitbucket.org/rio512hsu/self-adaptive-permutation-optimizer git/rio512hsu_self-adaptive-permutation-optimizer
+RSYNC!!!!!
+    0 cloned in 36.4336600304
+    next size: 327335850
+    limit: 10660.0
+    current dir: /disk2/1
+    0 synced in 492.082669973
+hg clone -U https://bitbucket.org/alexprengere/pypy hg/alexprengere_pypy
+RSYNC!!!!!
+    0 cloned in 92.1773300171
+    next size: 313926873
+    limit: 10659.0
+    current dir: /disk2/1
+    0 synced in 530.706927061
+git clone --mirror https://bitbucket.org/orcbladestudios/battle-scene-prototype-v2 git/orcbladestudios_battle-scene-prototype-v2
+RSYNC!!!!!
+    0 cloned in 28.0357530117
+    next size: 299764630
+    limit: 10659.0
+    current dir: /disk2/1
+    0 synced in 541.299671888
+git clone --mirror https://bitbucket.org/SuspendedFour/ramarama git/SuspendedFour_ramarama
+RSYNC!!!!!
+    0 cloned in 66.9180212021
+    next size: 286348907
+    limit: 10659.0
+    current dir: /disk2/1
+    0 synced in 567.081250906
+git clone --mirror https://bitbucket.org/PaulMuriithi/jitsi git/PaulMuriithi_jitsi
+RSYNC!!!!!
+    0 cloned in 34.666670084
+    next size: 279562897
+    limit: 10635.0
+    current dir: /disk2/1
+    0 synced in 573.474359989
+hg clone -U https://bitbucket.org/marlovitsh/elexis-base-marlovitsh hg/marlovitsh_elexis-base-marlovitsh
+RSYNC!!!!!
+    0 cloned in 20.668350935
+    next size: 271684092
+    limit: 10658.0
+    current dir: /disk2/1
+    0 synced in 528.768769979
+git clone --mirror https://bitbucket.org/MinionROM/android_packages_apps_settings git/MinionROM_android_packages_apps_settings
+RSYNC!!!!!
+    0 cloned in 13.668448925
+    next size: 264435258
+    limit: 10658.0
+    current dir: /disk2/1
+    0 synced in 553.830478191
+hg clone -U https://bitbucket.org/moesenle/gazebo hg/moesenle_gazebo
+RSYNC!!!!!
+    0 cloned in 12.2748849392
+    next size: 257868707
+    limit: 10658.0
+    current dir: /disk2/1
+    0 synced in 584.975255966
+git clone --mirror https://bitbucket.org/derek_PB/village git/derek_PB_village
+RSYNC!!!!!
+    0 cloned in 12.7739219666
+    next size: 247547219
+    limit: 10658.0
+    current dir: /disk2/1
+    0 synced in 495.137279034
+hg clone -U https://bitbucket.org/Kitty_Barnett/catznip-r8 hg/Kitty_Barnett_catznip-r8
+RSYNC!!!!!
+    0 cloned in 7.03596711159
+    next size: 241864849
+    limit: 10658.0
+    current dir: /disk2/1
+    0 synced in 543.176402807
+git clone --mirror https://bitbucket.org/CallToPower/matterhorn-osnabr-ck-fork git/CallToPower_matterhorn-osnabr-ck-fork
+RSYNC!!!!!
+    0 cloned in 18.0266571045
+    next size: 235247556
+    limit: 10658.0
+    current dir: /disk2/1
+    0 synced in 495.871663094
+hg clone -U https://bitbucket.org/Tank_Master/open-154 hg/Tank_Master_open-154
+RSYNC!!!!!
+    0 cloned in 19.8490879536
+    next size: 228646861
+    limit: 10658.0
+    current dir: /disk2/1
+    0 synced in 535.77165699
+git clone --mirror https://bitbucket.org/scca/ma-placing git/scca_ma-placing
+RSYNC!!!!!
+    0 cloned in 18.2277629375
+    next size: 222499542
+    limit: 10657.0
+    current dir: /disk2/1
+    0 synced in 508.529500008
+hg clone -U https://bitbucket.org/VictorEijkhout/hpc-book-and-course hg/VictorEijkhout_hpc-book-and-course
+RSYNC!!!!!
+    0 cloned in 31.8395268917
+    next size: 217395263
+    limit: 10656.0
+    current dir: /disk2/1
+    0 synced in 556.309911013
+git clone --mirror https://bitbucket.org/sashmit/sss git/sashmit_sss
+RSYNC!!!!!
+    0 cloned in 7.75296211243
+    next size: 214041017
+    limit: 10656.0
+    current dir: /disk2/1
+    0 synced in 611.988877058
+Repo sashmit/ssscloned
+	20369906807 bytes cloned
+	39.6043346826% done
+	40424.0183811 seconds elapsed
+	  Git:1809.9496305
+	  Hg: 3688.34549594
+git clone --mirror https://bitbucket.org/asjafjell/mastergutta git/asjafjell_mastergutta
+RSYNC!!!!!
+    214041017 cloned in 3.37684583664
+    next size: 210170351
+    limit: 8440.0
+    current dir: /disk2/1
+    214041017 synced in 535.777369022
+git clone --mirror https://bitbucket.org/HenryYP/monkiki-playground git/HenryYP_monkiki-playground
+RSYNC!!!!!
+    0 cloned in 65.6046969891
+    next size: 207881646
+    limit: 8440.0
+    current dir: /disk2/1
+    0 synced in 711.732179165
+Repo HenryYP/monkiki-playgroundcloned
+	20577788453 bytes cloned
+	40.008510036% done
+	41738.6961999 seconds elapsed
+	  Git:1876.02236342
+	  Hg: 3688.34549594
+hg clone -U https://bitbucket.org/krisvale/stacklessswitching hg/krisvale_stacklessswitching
+RSYNC!!!!!
+    207881646 cloned in 1.56409502029
+    next size: 204462753
+    limit: 8404.0
+    current dir: /disk2/1
+    207881646 synced in 798.808944941
+hg clone -U https://bitbucket.org/gulyasgyorgy/ogre_renderoperation hg/gulyasgyorgy_ogre_renderoperation
+RSYNC!!!!!
+    0 cloned in 32.2573888302
+    next size: 200515788
+    limit: 8404.0
+    current dir: /disk2/1
+    0 synced in 808.454076052
+hg clone -U https://bitbucket.org/oz_linden/storm-1939 hg/oz_linden_storm-1939
+RSYNC!!!!!
+    0 cloned in 14.5338771343
+    next size: 199262636
+    limit: 8404.0
+    current dir: /disk2/1
+    0 synced in 804.70864296
+git clone --mirror https://bitbucket.org/davidgitz/icarus_net git/davidgitz_icarus_net
+RSYNC!!!!!
+    0 cloned in 25.4017698765
+    next size: 197918780
+    limit: 8404.0
+    current dir: /disk2/1
+    0 synced in 661.919440985
+hg clone -U https://bitbucket.org/JonathanYap/vwr-24094 hg/JonathanYap_vwr-24094
+RSYNC!!!!!
+    0 cloned in 11.007638216
+    next size: 195514868
+    limit: 8379.0
+    current dir: /disk2/1
+    0 synced in 720.847333908
+hg clone -U https://bitbucket.org/callum_linden/viewer-development-media-volume hg/callum_linden_viewer-development-media-volume
+RSYNC!!!!!
+    0 cloned in 15.0425589085
+    next size: 193634309
+    limit: 8403.0
+    current dir: /disk2/1
+    0 synced in 912.790539026
+hg clone -U https://bitbucket.org/jwonders/ogre hg/jwonders_ogre
+RSYNC!!!!!
+    0 cloned in 15.640460968
+    next size: 192618938
+    limit: 6187.0
+    current dir: /disk2/1
+    0 synced in 669.505218983
+git clone --mirror https://bitbucket.org/pangolith/regolithdeveopment git/pangolith_regolithdeveopment
+RSYNC!!!!!
+    0 cloned in 16.5790131092
+    next size: 191025698
+    limit: 7980.0
+    current dir: /disk2/1
+    0 synced in 732.668751001
+hg clone -U https://bitbucket.org/paul_productengine/test hg/paul_productengine_test
+RSYNC!!!!!
+    0 cloned in 5.90191793442
+    next size: 189866511
+    limit: 8379.0
+    current dir: /disk2/1
+    0 synced in 806.500372171
+hg clone -U https://bitbucket.org/tiran/xmlbomb hg/tiran_xmlbomb
+RSYNC!!!!!
+    0 cloned in 17.4258739948
+    next size: 187092226
+    limit: 4176.0
+    current dir: /disk2/1
+    0 synced in 553.370445967
+hg clone -U https://bitbucket.org/Stefan_Kohlbrecher/gazebo_models_kohlbrecher hg/Stefan_Kohlbrecher_gazebo_models_kohlbrecher
+RSYNC!!!!!
+    0 cloned in 18.6851348877
+    next size: 183019067
+    limit: 4176.0
+    current dir: /disk2/1
+    0 synced in 746.69431901
+git clone --mirror https://bitbucket.org/brownfields/project-assignment-3 git/brownfields_project-assignment-3
+RSYNC!!!!!
+    0 cloned in 5.67021799088
+    next size: 178396731
+    limit: 4176.0
+    current dir: /disk2/1
+    0 synced in 997.644360065
+git clone --mirror https://bitbucket.org/jamiedbuckley/trouble-loading git/jamiedbuckley_trouble-loading
