@@ -1,5 +1,6 @@
 import multiprocessing
 import requests
+import shutil
 import subprocess
 import os
 import io
@@ -78,7 +79,9 @@ def clone(repos, forkid):
       s.write('    current dir: ' + os.getcwd() + '\n')
       envoy.run ('rsync -ae "ssh -p2200" hg/ cdaffron@da2.eecs.utk.edu:hg')
       envoy.run ('rsync -ae "ssh -p2200" git/ cdaffron@da2.eecs.utk.edu:git')
-      envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
+      #envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
+      shutil.rmtree('git')
+      shutil.rmtree('hg')
       now = time.time()
       s.write('    ' + str (nused) + ' synced in ' + str (now - now0) + '\n')
       s.flush()
@@ -106,12 +109,14 @@ def clone(repos, forkid):
         f.write('\n')
       f.flush()
       os.fsync(f.fileno())
+      repo = repo + ';failure'
     else:
       prevSize = repoSize
       nused += repoSize
       totalCloned += repoSize
       totalTime = time.time() - start;
-      s.write('Repo ' + target + 'cloned\n')
+      repo = repo + ';cloned'
+      s.write('Repo ' + target + ' cloned\n')
       s.write('\t' + str(totalCloned) + ' bytes cloned\n')
       s.write('\t' + str((float(totalCloned) / float(totalSize)) * 100) + '% done\n')
       s.write('\t' + str(totalTime) + ' seconds elapsed\n')
