@@ -1,0 +1,8 @@
+TEST2
+git repo meke/momongalinux-trunk failed to clone
+git repo natospecialforces/natounits failed to clone
+hg repo Ansariel/phoenix-firestorm-lgpl-tofu failed to clone
+hg repo kf6kjg/firestorm-lgpl-fire-8882 failed to clone
+hg repo Jamie_Clayton/dnn-community-codeplex-mirror failed to clone
+hg repo piratihr/zakoni failed to clone
+hg repo atgutier/bbench failed to clone

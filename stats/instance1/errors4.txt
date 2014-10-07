@@ -1,0 +1,11 @@
+TEST2
+hg repo snadi/farce-linuxanalysis failed to clone
+hg repo daisukewi/ogre failed to clone
+git repo oliviermichaud/weberp failed to clone
+hg repo MartinRJ/bug-840 failed to clone
+hg repo IronNerd/ogre-math-update failed to clone
+hg repo hillarybloch/my-viewer-development failed to clone
+hg repo avassalotti/pep-3154 failed to clone
+git repo chameleonos/android_external_eclipse-basebuilder failed to clone
+git repo mikechurvis/gamejam_training failed to clone
+git repo dhebert/cresom failed to clone

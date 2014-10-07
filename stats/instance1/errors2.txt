@@ -1,0 +1,8 @@
+TEST2
+git repo willbest/idlprogs failed to clone
+hg repo lindenlab/cocoa-project-viewer failed to clone
+hg repo einWikinger/ogre-background-queue-patch failed to clone
+hg repo kishan_grimout/ryzomcore failed to clone
+hg repo log_linden/viewer-storm-1854 failed to clone
+git repo XeroXaosp/packages_apps_settings failed to clone
+hg repo jdsproz/bytestorm failed to clone

@@ -1,0 +1,662 @@
+TEST!!!!!!!!
+git clone --mirror https://bitbucket.org/chameleonos/android_prebuilt git/chameleonos_android_prebuilt
+RSYNC!!!!!
+    0 cloned in 0.0205769538879
+    next size: 3911266468
+    limit: 19544144.0
+    current dir: /disk1/2
+    0 synced in 5.07699584961
+Repo chameleonos/android_prebuiltcloned
+	3911266468 bytes cloned
+	7.85801785841% done
+	523.707169771 seconds elapsed
+	  Git:518.070281982
+	  Hg: 0
+git clone --mirror https://bitbucket.org/LTommaseo/250.8-drill-rig-build git/LTommaseo_250.8-drill-rig-build
+RSYNC!!!!!
+    3911266468 cloned in 518.6366961
+    next size: 2267269754
+    limit: 18352531.0
+    current dir: /disk1/2
+    3911266468 synced in 399.777262926
+Repo LTommaseo/250.8-drill-rig-buildcloned
+	6178536222 bytes cloned
+	12.4131271465% done
+	1154.22499299 seconds elapsed
+	  Git:748.254957914
+	  Hg: 0
+git clone --mirror https://bitbucket.org/prachirathore/anusaaraka git/prachirathore_anusaaraka
+RSYNC!!!!!
+    2267269754 cloned in 230.718708992
+    next size: 1571019431
+    limit: 17822130.0
+    current dir: /disk1/2
+    2267269754 synced in 258.922024965
+Repo prachirathore/anusaarakacloned
+	7749555653 bytes cloned
+	15.5694190652% done
+	1484.06521082 seconds elapsed
+	  Git:818.678228855
+	  Hg: 0
+git clone --mirror https://bitbucket.org/moonlight/slim_frameworks_base git/moonlight_slim_frameworks_base
+RSYNC!!!!!
+    1571019431 cloned in 70.9184041023
+    next size: 1400747519
+    limit: 17383590.0
+    current dir: /disk1/2
+    1571019431 synced in 346.553740025
+Repo moonlight/slim_frameworks_basecloned
+	9150303172 bytes cloned
+	18.3836223698% done
+	2022.71338081 seconds elapsed
+	  Git:1010.26013184
+	  Hg: 0
+hg clone -U https://bitbucket.org/javier_p_villamizar/idempiere hg/javier_p_villamizar_idempiere
+RSYNC!!!!!
+    1400747519 cloned in 192.096107006
+    next size: 1287323457
+    limit: 16143343.0
+    current dir: /disk1/2
+    1400747519 synced in 386.065888882
+Repo javier_p_villamizar/idempierecloned
+	10437626629 bytes cloned
+	20.9699485119% done
+	2699.510535 seconds elapsed
+	  Git:1010.26013184
+	  Hg: 290.252604008
+git clone --mirror https://bitbucket.org/htchoi1995/frameworks_base git/htchoi1995_frameworks_base
+RSYNC!!!!!
+    1287323457 cloned in 290.761219025
+    next size: 1161868649
+    limit: 14590144.0
+    current dir: /disk1/2
+    1287323457 synced in 2961.43834805
+Repo htchoi1995/frameworks_basecloned
+	11599495278 bytes cloned
+	23.3042268505% done
+	5796.04891682 seconds elapsed
+	  Git:1144.80324292
+	  Hg: 290.252604008
+git clone --mirror https://bitbucket.org/jgambrell/techbook-mobile git/jgambrell_techbook-mobile
+RSYNC!!!!!
+    1161868649 cloned in 135.072871923
+    next size: 1005522534
+    limit: 12181359.0
+    current dir: /disk1/2
+    1161868649 synced in 116.366136074
+Repo jgambrell/techbook-mobilecloned
+	12605017812 bytes cloned
+	25.3243945107% done
+	5982.0402379 seconds elapsed
+	  Git:1213.94139504
+	  Hg: 290.252604008
+git clone --mirror https://bitbucket.org/monoslim/linux git/monoslim_linux
+RSYNC!!!!!
+    1005522534 cloned in 69.6212129593
+    next size: 902685119
+    limit: 11608982.0
+    current dir: /disk1/2
+    1005522534 synced in 120.82883215
+Repo monoslim/linuxcloned
+	13507702931 bytes cloned
+	27.1379543496% done
+	6318.16681194 seconds elapsed
+	  Git:1428.74081898
+	  Hg: 290.252604008
+git clone --mirror https://bitbucket.org/Myth1c/pokemonium git/Myth1c_pokemonium
+RSYNC!!!!!
+    902685119 cloned in 215.300268888
+    next size: 839222846
+    limit: 11185350.0
+    current dir: /disk1/2
+    902685119 synced in 89.9234859943
+Repo Myth1c/pokemoniumcloned
+	14346925777 bytes cloned
+	28.8240138818% done
+	6458.59263682 seconds elapsed
+	  Git:1478.73467898
+	  Hg: 290.252604008
+git clone --mirror https://bitbucket.org/fbie/wait-free-morphology git/fbie_wait-free-morphology
+RSYNC!!!!!
+    839222846 cloned in 50.5007739067
+    next size: 810154355
+    limit: 10818256.0
+    current dir: /disk1/2
+    839222846 synced in 120.738572121
+Repo fbie/wait-free-morphologycloned
+	15157080132 bytes cloned
+	30.4516727083% done
+	6619.47005391 seconds elapsed
+	  Git:1518.37839413
+	  Hg: 290.252604008
+git clone --mirror https://bitbucket.org/h4ck3rm1k3/federal-election-commission-aggregation-2002 git/h4ck3rm1k3_federal-election-commission-aggregation-2002
+RSYNC!!!!!
+    810154355 cloned in 40.1405000687
+    next size: 751523170
+    limit: 10757272.0
+    current dir: /disk1/2
+    810154355 synced in 46.6816329956
+Repo h4ck3rm1k3/federal-election-commission-aggregation-2002cloned
+	15908603302 bytes cloned
+	31.9615372341% done
+	6772.42286777 seconds elapsed
+	  Git:1624.15157104
+	  Hg: 290.252604008
+hg clone -U https://bitbucket.org/cjerdonek/cpython-doctest-plus hg/cjerdonek_cpython-doctest-plus
+RSYNC!!!!!
+    751523170 cloned in 106.268390894
+    next size: 711172963
+    limit: 10379551.0
+    current dir: /disk1/2
+    751523170 synced in 100.031674147
+Repo cjerdonek/cpython-doctest-pluscloned
+	16619776265 bytes cloned
+	33.3903352691% done
+	7099.25262785 seconds elapsed
+	  Git:1624.15157104
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/groolot/creation_2008 git/groolot_creation_2008
+RSYNC!!!!!
+    711172963 cloned in 226.801869869
+    next size: 671690665
+    limit: 9974087.0
+    current dir: /disk1/2
+    711172963 synced in 1011.53013802
+Repo groolot/creation_2008cloned
+	17291466930 bytes cloned
+	34.7398105053% done
+	8309.99348092 seconds elapsed
+	  Git:1822.8684051
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/hdiep/diep git/hdiep_diep
+RSYNC!!!!!
+    671690665 cloned in 199.206136942
+    next size: 648884193
+    limit: 9193168.0
+    current dir: /disk1/2
+    671690665 synced in 140.701756954
+Repo hdiep/diepcloned
+	17940351123 bytes cloned
+	36.0434658861% done
+	8452.16966486 seconds elapsed
+	  Git:1823.86793113
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/jcoheng/sorttime git/jcoheng_sorttime
+RSYNC!!!!!
+    648884193 cloned in 1.47651004791
+    next size: 635005102
+    limit: 9193001.0
+    current dir: /disk1/2
+    648884193 synced in 52.5728521347
+Repo jcoheng/sorttimecloned
+	18575356225 bytes cloned
+	37.3192371669% done
+	8506.07314491 seconds elapsed
+	  Git:1824.68085909
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/h4ck3rm1k3/federal-election-commission-aggregation-2003 git/h4ck3rm1k3_federal-election-commission-aggregation-2003
+RSYNC!!!!!
+    635005102 cloned in 1.32849192619
+    next size: 628238070
+    limit: 9192971.0
+    current dir: /disk1/2
+    635005102 synced in 23.8971910477
+Repo h4ck3rm1k3/federal-election-commission-aggregation-2003cloned
+	19203594295 bytes cloned
+	38.58141299% done
+	8604.39024878 seconds elapsed
+	  Git:1898.60495019
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/whoinlee/xerox_autobot git/whoinlee_xerox_autobot
+RSYNC!!!!!
+    628238070 cloned in 74.4215090275
+    next size: 600733971
+    limit: 9039422.0
+    current dir: /disk1/2
+    628238070 synced in 103.882371902
+Repo whoinlee/xerox_autobotcloned
+	19804328266 bytes cloned
+	39.7883310844% done
+	8799.33867884 seconds elapsed
+	  Git:1989.10878515
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/Dokdo-Project_Legacy/android_kernel_samsung_crespo git/Dokdo-Project_Legacy_android_kernel_samsung_crespo
+RSYNC!!!!!
+    600733971 cloned in 91.0646760464
+    next size: 568648472
+    limit: 8956325.0
+    current dir: /disk1/2
+    600733971 synced in 84.7518949509
+Repo Dokdo-Project_Legacy/android_kernel_samsung_crespocloned
+	20372976738 bytes cloned
+	40.9307870855% done
+	9027.15093589 seconds elapsed
+	  Git:2131.59925818
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/duongha2k/testfs git/duongha2k_testfs
+RSYNC!!!!!
+    568648472 cloned in 143.062555075
+    next size: 553761496
+    limit: 8626251.0
+    current dir: /disk1/2
+    568648472 synced in 125.975070953
+Repo duongha2k/testfscloned
+	20926738234 bytes cloned
+	42.0433340726% done
+	9173.98442578 seconds elapsed
+	  Git:2151.86589718
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/soupysoup/android_kernel_samsung_msm8660-common git/soupysoup_android_kernel_samsung_msm8660-common
+RSYNC!!!!!
+    553761496 cloned in 20.8561420441
+    next size: 536448854
+    limit: 8461019.0
+    current dir: /disk1/2
+    553761496 synced in 138.091894865
+Repo soupysoup/android_kernel_samsung_msm8660-commoncloned
+	21463187088 bytes cloned
+	43.121098707% done
+	9463.45756078 seconds elapsed
+	  Git:2302.65853119
+	  Hg: 516.575105906
+git clone --mirror https://bitbucket.org/doctor_purple/stanfordnlpservlet git/doctor_purple_stanfordnlpservlet
+RSYNC!!!!!
+    536448854 cloned in 151.381822109
+    next size: 508218560
+    limit: 8038167.0
+    current dir: /disk1/2
+    536448854 synced in 136.710711002
+Repo doctor_purple/stanfordnlpservletcloned
+	21971405648 bytes cloned
+	44.1421466343% done
+	9622.91573286 seconds elapsed
+	  Git:2324.86171722
+	  Hg: 516.575105906
+hg clone -U https://bitbucket.org/tp_team/er_diagram hg/tp_team_er_diagram
+RSYNC!!!!!
+    508218560 cloned in 22.7466769218
+    next size: 476919693
+    limit: 7913953.0
+    current dir: /disk1/2
+    508218560 synced in 151.229189157
+Repo tp_team/er_diagramcloned
+	22448325341 bytes cloned
+	45.100312869% done
+	9940.29749393 seconds elapsed
+	  Git:2324.86171722
+	  Hg: 682.237764835
+git clone --mirror https://bitbucket.org/segroup1/heat-clinic git/segroup1_heat-clinic
+RSYNC!!!!!
+    476919693 cloned in 166.159928799
+    next size: 435921795
+    limit: 7750541.0
+    current dir: /disk1/2
+    476919693 synced in 401.20658803
+Repo segroup1/heat-cliniccloned
+	22884247136 bytes cloned
+	45.9761113548% done
+	10391.0039709 seconds elapsed
+	  Git:2373.83871222
+	  Hg: 682.237764835
+git clone --mirror https://bitbucket.org/michael_dang/eatout_kenya_android git/michael_dang_eatout_kenya_android
+RSYNC!!!!!
+    435921795 cloned in 49.496119976
+    next size: 408953229
+    limit: 7462488.0
+    current dir: /disk1/2
+    435921795 synced in 93.6304311752
+Repo michael_dang/eatout_kenya_androidcloned
+	23293200365 bytes cloned
+	46.7977280365% done
+	10522.6116648 seconds elapsed
+	  Git:2411.30951023
+	  Hg: 682.237764835
+hg clone -U https://bitbucket.org/tilarids/pypy hg/tilarids_pypy
+RSYNC!!!!!
+    408953229 cloned in 37.9757227898
+    next size: 396440745
+    limit: 7354857.0
+    current dir: /disk1/2
+    408953229 synced in 154.121239185
+Repo tilarids/pypycloned
+	23689641110 bytes cloned
+	47.5942062308% done
+	10883.4756768 seconds elapsed
+	  Git:2411.30951023
+	  Hg: 888.475533009
+hg clone -U https://bitbucket.org/hardworm/ckaka hg/hardworm_ckaka
+RSYNC!!!!!
+    396440745 cloned in 206.750799894
+    next size: 379113305
+    limit: 7017177.0
+    current dir: /disk1/2
+    396440745 synced in 3952.56671596
+Repo hardworm/ckakacloned
+	24068754415 bytes cloned
+	48.3558723422% done
+	14911.3465328 seconds elapsed
+	  Git:2411.30951023
+	  Hg: 963.307790995
+hg clone -U https://bitbucket.org/micmcg/pypy hg/micmcg_pypy
+RSYNC!!!!!
+    379113305 cloned in 75.2971661091
+    next size: 363459081
+    limit: 5992430.0
+    current dir: /disk1/2
+    379113305 synced in 296.332551003
+Repo micmcg/pypycloned
+	24432213496 bytes cloned
+	49.0860879827% done
+	15379.8900189 seconds elapsed
+	  Git:2411.30951023
+	  Hg: 1134.92756987
+git clone --mirror https://bitbucket.org/innot/solar-system git/innot_solar-system
+RSYNC!!!!!
+    363459081 cloned in 172.211688042
+    next size: 353439060
+    limit: 5872643.0
+    current dir: /disk1/2
+    363459081 synced in 4499.31454301
+Repo innot/solar-systemcloned
+	24785652556 bytes cloned
+	49.7961726747% done
+	19949.4182048 seconds elapsed
+	  Git:2480.99983406
+	  Hg: 1134.92756987
+git clone --mirror https://bitbucket.org/KaijiHakaroku/android_kernel_acer_a500 git/KaijiHakaroku_android_kernel_acer_a500
+RSYNC!!!!!
+    353439060 cloned in 70.2099339962
+    next size: 345393585
+    limit: 5082544.0
+    current dir: /disk1/2
+    353439060 synced in 248.286196947
+Repo KaijiHakaroku/android_kernel_acer_a500cloned
+	25131046141 bytes cloned
+	50.4900934243% done
+	20216.822294 seconds elapsed
+	  Git:2499.615978
+	  Hg: 1134.92756987
+hg clone -U https://bitbucket.org/akdominguez/pypy-rst-fix hg/akdominguez_pypy-rst-fix
+RSYNC!!!!!
+    345393585 cloned in 19.118970871
+    next size: 334679878
+    limit: 4888622.0
+    current dir: /disk1/2
+    345393585 synced in 176.472493172
+Repo akdominguez/pypy-rst-fixcloned
+	25465726019 bytes cloned
+	51.1624895598% done
+	20572.679467 seconds elapsed
+	  Git:2499.615978
+	  Hg: 1313.74973488
+hg clone -U https://bitbucket.org/hillarybloch/firestorm hg/hillarybloch_firestorm
+RSYNC!!!!!
+    334679878 cloned in 179.386013985
+    next size: 325863132
+    limit: 4600409.0
+    current dir: /disk1/2
+    334679878 synced in 4528.70753098
+Repo hillarybloch/firestormcloned
+	25791589151 bytes cloned
+	51.8171722135% done
+	25314.5837829 seconds elapsed
+	  Git:2499.615978
+	  Hg: 1526.31267905
+git clone --mirror https://bitbucket.org/iyoung/tanked-deferred git/iyoung_tanked-deferred
+RSYNC!!!!!
+    325863132 cloned in 213.198490858
+    next size: 313166087
+    limit: 4262778.0
+    current dir: /disk1/2
+    325863132 synced in 4052.88527417
+Repo iyoung/tanked-deferredcloned
+	26104755238 bytes cloned
+	52.4463455834% done
+	29467.1058748 seconds elapsed
+	  Git:2598.74342394
+	  Hg: 1526.31267905
+hg clone -U https://bitbucket.org/Zaretto/dataobjects.net-gpl hg/Zaretto_dataobjects.net-gpl
+RSYNC!!!!!
+    313166087 cloned in 99.6324319839
+    next size: 297612762
+    limit: 3492091.0
+    current dir: /disk1/2
+    313166087 synced in 545.241572857
+Repo Zaretto/dataobjects.net-gplcloned
+	26402368000 bytes cloned
+	53.044271196% done
+	30131.1422839 seconds elapsed
+	  Git:2598.74342394
+	  Hg: 1644.66003823
+git clone --mirror https://bitbucket.org/jesusSobrino/gwtplayerkata git/jesusSobrino_gwtplayerkata
+RSYNC!!!!!
+    297612762 cloned in 118.810845137
+    next size: 286129696
+    limit: 3072915.0
+    current dir: /disk1/2
+    297612762 synced in 976.693252087
+Repo jesusSobrino/gwtplayerkatacloned
+	26688497696 bytes cloned
+	53.6191264965% done
+	31204.4500408 seconds elapsed
+	  Git:2694.83423495
+	  Hg: 1644.66003823
+git clone --mirror https://bitbucket.org/nick_pisit/managetaxi-meteronline git/nick_pisit_managetaxi-meteronline
+RSYNC!!!!!
+    286129696 cloned in 96.5994019508
+    next size: 278284446
+    limit: 2710465.0
+    current dir: /disk1/2
+    286129696 synced in 596.101634026
+Repo nick_pisit/managetaxi-meteronlinecloned
+	26966782142 bytes cloned
+	54.1782201211% done
+	32029.5066948 seconds elapsed
+	  Git:2923.3076818
+	  Hg: 1644.66003823
+git clone --mirror https://bitbucket.org/jstapleton/vagrant-javadev-box-master git/jstapleton_vagrant-javadev-box-master
+RSYNC!!!!!
+    278284446 cloned in 228.954317808
+    next size: 270780574
+    limit: 2567053.0
+    current dir: /disk1/2
+    278284446 synced in 579.582607985
+Repo jstapleton/vagrant-javadev-box-mastercloned
+	27237562716 bytes cloned
+	54.7222379229% done
+	32665.5992179 seconds elapsed
+	  Git:2979.29272485
+	  Hg: 1644.66003823
+hg clone -U https://bitbucket.org/nuno24/lapr5_2 hg/nuno24_lapr5_2
+RSYNC!!!!!
+    270780574 cloned in 56.5112440586
+    next size: 264295483
+    limit: 2384165.0
+    current dir: /disk1/2
+    270780574 synced in 593.18145895
+Repo nuno24/lapr5_2cloned
+	27501858199 bytes cloned
+	55.2532267068% done
+	33362.3424628 seconds elapsed
+	  Git:2979.29272485
+	  Hg: 1747.70146823
+git clone --mirror https://bitbucket.org/Lqpin/mc git/Lqpin_mc
+RSYNC!!!!!
+    264295483 cloned in 103.561133146
+    next size: 257030361
+    limit: 2179834.0
+    current dir: /disk1/2
+    264295483 synced in 638.172013044
+Repo Lqpin/mccloned
+	27758888560 bytes cloned
+	55.769619334% done
+	34026.180517 seconds elapsed
+	  Git:3004.38758469
+	  Hg: 1747.70146823
+git clone --mirror https://bitbucket.org/opencast-community/matterhorn-osnabr-ck-fork git/opencast-community_matterhorn-osnabr-ck-fork
+RSYNC!!!!!
+    257030361 cloned in 25.6671798229
+    next size: 247135439
+    limit: 1976382.0
+    current dir: /disk1/2
+    257030361 synced in 590.729192019
+Repo opencast-community/matterhorn-osnabr-ck-forkcloned
+	28006023999 bytes cloned
+	56.2661323456% done
+	34641.507931 seconds elapsed
+	  Git:3028.50295949
+	  Hg: 1747.70146823
+hg clone -U https://bitbucket.org/fernandot/ogre hg/fernandot_ogre
+RSYNC!!!!!
+    247135439 cloned in 24.5972499847
+    next size: 241337004
+    limit: 1731704.0
+    current dir: /disk1/2
+    247135439 synced in 547.950745106
+Repo fernandot/ogrecloned
+	28247361003 bytes cloned
+	56.7509958809% done
+	35276.4790559 seconds elapsed
+	  Git:3028.50295949
+	  Hg: 1834.22699642
+git clone --mirror https://bitbucket.org/alexdevapple/auditproject git/alexdevapple_auditproject
+RSYNC!!!!!
+    241337004 cloned in 87.0282950401
+    next size: 233754231
+    limit: 1488159.0
+    current dir: /disk1/2
+    241337004 synced in 907.716711998
+Repo alexdevapple/auditprojectcloned
+	28481115234 bytes cloned
+	57.2206250756% done
+	36195.4645088 seconds elapsed
+	  Git:3039.24982858
+	  Hg: 1834.22699642
+hg clone -U https://bitbucket.org/kura_/pypy hg/kura__pypy
+RSYNC!!!!!
+    233754231 cloned in 11.2599029541
+    next size: 228192471
+    limit: 1300523.0
+    current dir: /disk1/2
+    233754231 synced in 581.186460972
+Repo kura_/pypycloned
+	28709307705 bytes cloned
+	57.6790802913% done
+	37052.7861128 seconds elapsed
+	  Git:3039.24982858
+	  Hg: 2109.78310251
+git clone --mirror https://bitbucket.org/faeamobile/kernel git/faeamobile_kernel
+RSYNC!!!!!
+    228192471 cloned in 276.137993097
+    next size: 221968107
+    limit: 960900.0
+    current dir: /disk1/2
+    228192471 synced in 2014.09993696
+Repo faeamobile/kernelcloned
+	28931275812 bytes cloned
+	58.1250303085% done
+	39076.967088 seconds elapsed
+	  Git:3048.82120252
+	  Hg: 2109.78310251
+git clone --mirror https://bitbucket.org/dotsrv/doterp git/dotsrv_doterp
+RSYNC!!!!!
+    221968107 cloned in 10.0782649517
+    next size: 217066309
+    limit: 672163.0
+    current dir: /disk1/2
+    221968107 synced in 675.838778019
+Repo dotsrv/doterpcloned
+	29148342121 bytes cloned
+	58.5611322583% done
+	39776.8284318 seconds elapsed
+	  Git:3072.23106956
+	  Hg: 2109.78310251
+hg clone -U https://bitbucket.org/hamdiakoguz/nhcontrib hg/hamdiakoguz_nhcontrib
+RSYNC!!!!!
+    217066309 cloned in 24.022578001
+    next size: 213820241
+    limit: 561612.0
+    current dir: /disk1/2
+    217066309 synced in 736.147100925
+Repo hamdiakoguz/nhcontribcloned
+	29362162362 bytes cloned
+	58.9907126221% done
+	40664.5149779 seconds elapsed
+	  Git:3072.23106956
+	  Hg: 2260.82797956
+git clone --mirror https://bitbucket.org/willbest/idlprogs git/willbest_idlprogs
+RSYNC!!!!!
+    213820241 cloned in 151.548221111
+    next size: 210001015
+    limit: 273115.0
+    current dir: /disk1/2
+    213820241 synced in 1388.03833199
+git clone --mirror https://bitbucket.org/tomer_elbaum/eye_dominance git/tomer_elbaum_eye_dominance
+RSYNC!!!!!
+    0 cloned in 13.5588960648
+    next size: 207881646
+    limit: 45209.0
+    current dir: /disk1/2
+    0 synced in 1117.710145
+Repo tomer_elbaum/eye_dominancecloned
+	29570044008 bytes cloned
+	59.408361918% done
+	43185.5702298 seconds elapsed
+	  Git:3086.45572352
+	  Hg: 2260.82797956
+hg clone -U https://bitbucket.org/lindenlab/cocoa-project-viewer hg/lindenlab_cocoa-project-viewer
+RSYNC!!!!!
+    207881646 cloned in 1.73935580254
+    next size: 204179781
+    limit: 45173.0
+    current dir: /disk1/2
+    207881646 synced in 1031.61816406
+hg clone -U https://bitbucket.org/einWikinger/ogre-background-queue-patch hg/einWikinger_ogre-background-queue-patch
+RSYNC!!!!!
+    0 cloned in 74.7146599293
+    next size: 200488854
+    limit: 45172.0
+    current dir: /disk1/2
+    0 synced in 829.497853994
+hg clone -U https://bitbucket.org/kishan_grimout/ryzomcore hg/kishan_grimout_ryzomcore
+RSYNC!!!!!
+    0 cloned in 57.0963032246
+    next size: 198788302
+    limit: 45172.0
+    current dir: /disk1/2
+    0 synced in 1083.13923788
+hg clone -U https://bitbucket.org/log_linden/viewer-storm-1854 hg/log_linden_viewer-storm-1854
+RSYNC!!!!!
+    0 cloned in 173.382453918
+    next size: 197565768
+    limit: 45172.0
+    current dir: /disk1/2
+    0 synced in 893.998187065
+git clone --mirror https://bitbucket.org/XeroXaosp/packages_apps_settings git/XeroXaosp_packages_apps_settings
+RSYNC!!!!!
+    0 cloned in 75.1606690884
+    next size: 194854696
+    limit: 45172.0
+    current dir: /disk1/2
+    0 synced in 1016.9876709
+hg clone -U https://bitbucket.org/jdsproz/bytestorm hg/jdsproz_bytestorm
+RSYNC!!!!!
+    0 cloned in 21.2243840694
+    next size: 193616930
+    limit: 33850.0
+    current dir: /disk1/2
+    0 synced in 847.663833857
+git clone --mirror https://bitbucket.org/tsg-/pyeclib git/tsg-_pyeclib
+RSYNC!!!!!
+    0 cloned in 12.1963021755
+    next size: 192424917
+    limit: 3909.0
+    current dir: /disk1/2
+    0 synced in 934.45679903
+Repo tsg-/pyeclibcloned
+	29762468925 bytes cloned
+	59.794957525% done
+	50241.3798938 seconds elapsed
+	  Git:3111.32676935
+	  Hg: 2650.7321887
+hg clone -U https://bitbucket.org/davep/viewer-development hg/davep_viewer-development
