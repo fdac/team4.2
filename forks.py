@@ -48,9 +48,9 @@ def clone(repos, forkid):
     splitRepo = repo.split(';')
     totalSize = totalSize + int(splitRepo[0])
 
-  for repo in repos:
+  for i in range(len(repos)):
 
-    splitRepo = repo.split(';')
+    splitRepo = repos[i].split(';')
     
     repoSize = int(splitRepo[0])
     versContType = splitRepo[1]
@@ -109,13 +109,13 @@ def clone(repos, forkid):
         f.write('\n')
       f.flush()
       os.fsync(f.fileno())
-      repo = repo + ';failure'
+      repos[i] = repos[i] + ';failure'
     else:
       prevSize = repoSize
       nused += repoSize
       totalCloned += repoSize
       totalTime = time.time() - start;
-      repo = repo + ';cloned'
+      repos[i] = repos[i] + ';cloned'
       s.write('Repo ' + target + ' cloned\n')
       s.write('\t' + str(totalCloned) + ' bytes cloned\n')
       s.write('\t' + str((float(totalCloned) / float(totalSize)) * 100) + '% done\n')
@@ -136,6 +136,18 @@ def clone(repos, forkid):
   now = time.time()
   s.write('    ' + str(nused) + ' synced in ' + str(now - now0) + '\n')
   nused = 0
+
+  s.write('\nFinal Statistics:\n')
+  now0 = time.time()
+  s.write('Total bytes: ' + str(totalCloned) + '\n')
+  s.write('Total time: ' + str(now0 - start) + ' seconds\n')
+  s.write('Total git time: ' + str(gitTime) + '\n')
+  s.write('Total hg time: ' + str(hgTime) + '\n')
+  for repo in repos:
+    splitRepo = repo.split(';')
+    s.write('\t' + splitRepo[5] + ' ' + splitRepo[7])
+  s.flush()
+  os.fsync(s.fileno())
 
 numCores = multiprocessing.cpu_count()
 #numCores = 1
