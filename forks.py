@@ -16,20 +16,43 @@ def diskCap():
   (out, err) = proc.communicate()
   return out
 
-def clone(repos, forkid):
+def clone(repos, forkid, storage, ip):
 
   #repos.reverse()
-  if((forkid % 2) == 0):
-    os.chdir('/disk1')
+  if( storage == 0 ):
+    if((forkid % 2) == 0):
+      os.chdir('/disk1')
+    else:
+      os.chdir('/disk2')
+  elif( storage == 1 ):
+    os.chdir('/home/ec2-user')
   else:
-    os.chdir('/disk2')
+    print 'Invalid storage flag'
+    exit()
   
-  if not os.path.isdir(str(forkid)):
-    os.mkdir(str(forkid));
-  os.chdir(str(forkid));
+  if( storage == 0 ):
+    if not os.path.isdir(str(forkid)):
+      os.mkdir(str(forkid));
+    os.chdir(str(forkid));
+  elif( storage == 1 ):
+    if((forkid % 2) == 0):
+      if not os.path.isdir('/disk1/' + str(forkid)):
+        os.mkdir('/disk1/' + str(forkid))
+    else:
+      if not os.path.isdir('/disk2/' + str(forkid)):
+        os.mkdir('/disk2/' + str(forkid))
   
-  f = open('errors' + str(forkid) + '.txt', 'w')
-  s = open('stats' + str(forkid) + '.txt', 'w')
+  if( storage == 0 ):
+    f = open('errors' + str(forkid) + '.txt', 'w')
+    s = open('stats' + str(forkid) + '.txt', 'w')
+  elif( storage == 1 ):
+    if((forkid % 2) == 0):
+      f = open('/disk1/' + str(forkid) + '/errors' + str(forkid) + '.txt', 'w')
+      s = open('/disk1/' + str(forkid) + '/stats' + str(forkid) + '.txt', 'w')
+    else:
+      f = open('/disk2/' + str(forkid) + '/errors' + str(forkid) + '.txt', 'w')
+      s = open('/disk2/' + str(forkid) + '/stats' + str(forkid) + '.txt', 'w')
+
   s.write("TEST!!!!!!!!\n")
   f.write("TEST2\n")
   start = time.time()
@@ -68,25 +91,28 @@ def clone(repos, forkid):
     os.fsync(s.fileno())
 
     nmax = diskCap()
-
-    if ((repoSize > (float(nmax) * 0.25)) or (prevSize > rsyncThresh)):
-      now0 = time.time()
-      s.write('RSYNC!!!!!\n')
-      s.write('    ' + str (nused) + ' cloned in ' + str (now0 - now) + '\n')
-      now = time.time()
-      s.write('    next size: ' + str(repoSize) + '\n')
-      s.write('    limit: ' + str(float(nmax) * 0.25) + '\n')
-      s.write('    current dir: ' + os.getcwd() + '\n')
-      envoy.run ('rsync -ae "ssh -p2200" hg/ cdaffron@da2.eecs.utk.edu:hg')
-      envoy.run ('rsync -ae "ssh -p2200" git/ cdaffron@da2.eecs.utk.edu:git')
-      #envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
-      shutil.rmtree('git', True)
-      shutil.rmtree('hg', True)
-      now = time.time()
-      s.write('    ' + str (nused) + ' synced in ' + str (now - now0) + '\n')
-      s.flush()
-      os.fsync(s.fileno())
-      nused = 0
+    
+    if( storage == 0 ):
+      if ((repoSize > (float(nmax) * 0.25)) or (prevSize > rsyncThresh)):
+        now0 = time.time()
+        s.write('RSYNC!!!!!\n')
+        s.write('    ' + str (nused) + ' cloned in ' + str (now0 - now) + '\n')
+        now = time.time()
+        s.write('    next size: ' + str(repoSize) + '\n')
+        s.write('    limit: ' + str(float(nmax) * 0.25) + '\n')
+        s.write('    current dir: ' + os.getcwd() + '\n')
+        envoy.run ('rsync -ae "ssh -i /home/ec2-user/micro" hg/ ec2-user@' + str(ip) + ':hg')
+        envoy.run ('rsync -ae "ssh -i /home/ec2-user/micro" git/ ec2-user@' + str(ip) + ':git')
+        #envoy.run ('rsync -ae "ssh -p2200" hg/ cdaffron@da2.eecs.utk.edu:hg')
+        #envoy.run ('rsync -ae "ssh -p2200" git/ cdaffron@da2.eecs.utk.edu:git')
+        #envoy.run ('ls | while read dir; do [[ -d $dir ]] && find $dir -delete; done')
+        shutil.rmtree('git', True)
+        shutil.rmtree('hg', True)
+        now = time.time()
+        s.write('    ' + str (nused) + ' synced in ' + str (now - now0) + '\n')
+        s.flush()
+        os.fsync(s.fileno())
+        nused = 0
     
     api = requests.get('https://api.bitbucket.org/2.0/repositories/' + target)
 
@@ -157,6 +183,12 @@ parser = argparse.ArgumentParser(description='Creates a clone process for every 
 parser.add_argument('repoFile',
                     type=str,
                     help='file of repositiories to clone')
+parser.add_argument('storageAttached',
+                    type=int,
+                    help='1 if storage is direct attached, 0 for rsync')
+parser.add_argument('ip_addr',
+                    type=str,
+                    help='IP address of storage server')
 
 if len(argv) == 1:
   parser.print_usage()
@@ -164,6 +196,8 @@ if len(argv) == 1:
 
 options = parser.parse_args(argv[1:])
 repoFile = options.repoFile
+storage = options.storageAttached
+ip = options.ip_addr
 print options
 print repoFile
 
@@ -185,7 +219,7 @@ for i in range(numCores):
   forkId = i
   if(os.fork() == 0):
     #print 'Process: ' + str(forkId)
-    clone(processRepos[forkId], forkId)
+    clone(processRepos[forkId], forkId, storage, ip)
     break;
 
 
