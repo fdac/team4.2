@@ -133,6 +133,11 @@ def clone(repos, forkid, storage, ip):
         f.write(' PRIVATE\n')
       else:
         f.write('\n')
+      f.write('Status Code: ' + str(r.status_code) + '\n')
+      f.write('\tStd Out: \n')
+      f.write(r.std_out)
+      f.write('\tStd Err: \n')
+      f.write(r.std_err)
       f.flush()
       os.fsync(f.fileno())
       repos[i] = repos[i] + ';failure'
