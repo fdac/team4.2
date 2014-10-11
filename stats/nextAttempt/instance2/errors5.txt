@@ -1,0 +1,55 @@
+TEST2
+git repo thoughtfulweb/thoughtful-web failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/rickylie_guzzle'...
+git repo arbitrarily/findandrewind-resources failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/arbitrarily_findandrewind-resources'...
+fatal: repository 'https://bitbucket.org/arbitrarily/findandrewind-resources/' not found
+hg repo dpollini/fennel-natl-econ-impl failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo ne_sachirou/dotfiles failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/hazirguo_soimort.github.io'...
+git repo OpsIT/instructions failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/svetamargetova_django-modern-template'...
+git repo michudy/concepts-container.net failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/yasuo222_photon-stream-analysis-two-photon-correlation'...
+git repo jtrobinson/eventlistener.js failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jtrobinson_eventlistener.js'...
+fatal: repository 'https://bitbucket.org/jtrobinson/eventlistener.js/' not found
+git repo olumby/munin-ts3-php failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/olumby_munin-ts3-php'...
+fatal: repository 'https://bitbucket.org/olumby/munin-ts3-php/' not found
+hg repo pfolt/zjp failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo espiritullama/taller4 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/espiritullama_taller4'...
+fatal: unable to access 'https://bitbucket.org/espiritullama/taller4/': The requested URL returned error: 503

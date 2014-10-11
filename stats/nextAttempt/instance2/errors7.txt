@@ -1,0 +1,116 @@
+TEST2
+git repo uc-berkeley-matterhorn/matterhorn-berkeley-qa failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/uc-berkeley-matterhorn_matterhorn-berkeley-qa'...
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+hg repo fr710/petsc-3.3-omp failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo andresmartinez/grupo5 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/andresmartinez_grupo5'...
+fatal: repository 'https://bitbucket.org/andresmartinez/grupo5/' not found
+git repo bjonreyes/3d-cave-runner failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_3d-cave-runner'...
+fatal: repository 'https://bitbucket.org/bjonreyes/3d-cave-runner/' not found
+git repo sleschenko/lulzalarmvoice failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/yaro_g_fpga_programmer'...
+git repo samuelpearce/wecsm failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/samuelpearce_wecsm'...
+fatal: repository 'https://bitbucket.org/samuelpearce/wecsm/' not found
+git repo olivierparent/nmdad-iii_laravel_demo failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/trokicki_seekassistant'...
+git repo michudy/labs-99 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/yukku0423_vagrant-dev-lamp'...
+git repo michudy/labs-4 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/KKuff_vim_info'...
+git repo mmarcysiak/labs-0 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mmarcysiak_labs-0'...
+fatal: repository 'https://bitbucket.org/mmarcysiak/labs-0/' not found
+git repo AmandaMarcotte/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/AmandaMarcotte_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/AmandaMarcotte/c-plus-equality/': The requested URL returned error: 503
+git repo dannyfritz/pung failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/dannyfritz_pung'...
+fatal: repository 'https://bitbucket.org/dannyfritz/pung/' not found
+git repo CrHacker/double_color_ball failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/CrHacker_double_color_ball'...
+fatal: repository 'https://bitbucket.org/CrHacker/double_color_ball/' not found
+git repo creative73/mavenkeyboard failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/creative73_mavenkeyboard'...
+fatal: repository 'https://bitbucket.org/creative73/mavenkeyboard/' not found
+git repo quartet/adwords-scripts failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/quartet_adwords-scripts'...
+fatal: repository 'https://bitbucket.org/quartet/adwords-scripts/' not found
+git repo Kowlin/transformice-lua-games failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Kowlin_transformice-lua-games'...
+fatal: repository 'https://bitbucket.org/Kowlin/transformice-lua-games/' not found
+git repo luopu/mysite failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/luopu_mysite'...
+fatal: repository 'https://bitbucket.org/luopu/mysite/' not found
+hg repo pgombas/jms_producer failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo lar71pom/pomada failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 503: Repository Unavailable
+git repo alexandra_putko/sort failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/alexandra_putko_sort'...
+fatal: unable to access 'https://bitbucket.org/alexandra_putko/sort/': The requested URL returned error: 503

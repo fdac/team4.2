@@ -1,0 +1,105 @@
+TEST2
+git repo AndersonSartor/androprof-release failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/AndersonSartor_androprof-release'...
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+git repo mnellemann/pxe-bootstrap failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 32726 changesets with 181386 changes to 36464 files (+9 heads)
+	Std Err: 
+hg repo k_kazutoshi/mediacontainer failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo Jafnee/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Jafnee_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/Jafnee/c-plus-equality/': The requested URL returned error: 503
+git repo marco.mariani/taskman failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Devlon_invasores'...
+git repo rootluser/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/rootluser_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/rootluser/c-plus-equality/': The requested URL returned error: 503
+git repo gipong/csie_sumo failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/chameleonos_android_device_lge_mako'...
+hg repo dpollini/mint-tx failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo 7dyne/android-database-application failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/7dyne_android-database-application'...
+fatal: repository 'https://bitbucket.org/7dyne/android-database-application/' not found
+git repo adaptationdevelopment/ad-spring-view-wro4j failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/adaptationdevelopment_ad-spring-view-wro4j'...
+fatal: repository 'https://bitbucket.org/adaptationdevelopment/ad-spring-view-wro4j/' not found
+git repo ampotos/cpp-generator failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/d4rth_v4d3r_tabla-hash'...
+git repo plodyga/converter failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/plodyga_converter'...
+fatal: repository 'https://bitbucket.org/plodyga/converter/' not found
+git repo filipavm/ementa failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 1 changesets with 76 changes to 76 files
+	Std Err: 
+git repo bjonreyes/odeskproceduralterrain failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_odeskproceduralterrain'...
+fatal: repository 'https://bitbucket.org/bjonreyes/odeskproceduralterrain/' not found
+git repo drupalchi/chidaneh.com failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/drupalchi_chidaneh.com'...
+fatal: repository 'https://bitbucket.org/drupalchi/chidaneh.com/' not found
+hg repo pgombas/jms_receiver failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo cmoraleseware/symfonycmorales failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/cmoraleseware_symfonycmorales'...
+fatal: unable to access 'https://bitbucket.org/cmoraleseware/symfonycmorales/': The requested URL returned error: 503

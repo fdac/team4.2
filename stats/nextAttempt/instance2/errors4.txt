@@ -1,0 +1,86 @@
+TEST2
+git repo anton_putau/cristmas failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/anton_putau_cristmas'...
+fatal: repository 'https://bitbucket.org/anton_putau/cristmas/' not found
+git repo jcano001/cs130_computer-graphics failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 322 changesets with 1149 changes to 211 files (+2 heads)
+	Std Err: 
+git repo bjonreyes/android-gltron failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_android-gltron'...
+fatal: repository 'https://bitbucket.org/bjonreyes/android-gltron/' not found
+git repo andriepu/src failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/andriepu_src'...
+fatal: repository 'https://bitbucket.org/andriepu/src/' not found
+git repo bandicoot_/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bandicoot__c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/bandicoot_/c-plus-equality/': The requested URL returned error: 503
+git repo kraig2/crypt-fighters failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kraig2_crypt-fighters'...
+fatal: repository 'https://bitbucket.org/kraig2/crypt-fighters/' not found
+git repo japesinator/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/japesinator_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/japesinator/c-plus-equality/': The requested URL returned error: 503
+git repo bxh5868/pcassignment2 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bxh5868_pcassignment2'...
+fatal: repository 'https://bitbucket.org/bxh5868/pcassignment2/' not found
+git repo smorlax/webapp-install failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/smorlax_webapp-install'...
+fatal: repository 'https://bitbucket.org/smorlax/webapp-install/' not found
+hg repo drupollini/lmm_sabr_revise failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo irakuri/medical-terms failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/irakuri_medical-terms'...
+fatal: repository 'https://bitbucket.org/irakuri/medical-terms/' not found
+git repo LAFF/downloads failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/LAFF_downloads'...
+fatal: repository 'https://bitbucket.org/LAFF/downloads/' not found
+hg repo boh/qnx_lab1 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo anabolena/ana-bolena failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/anabolena_ana-bolena'...
+fatal: unable to access 'https://bitbucket.org/anabolena/ana-bolena/': The requested URL returned error: 503

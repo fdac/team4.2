@@ -1,0 +1,110 @@
+TEST2
+git repo bigfootproject/hadoop-0.21-with-suspension-and-fakescheduler failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bigfootproject_hadoop-0.21-with-suspension-and-fakescheduler'...
+fatal: repository 'https://bitbucket.org/bigfootproject/hadoop-0.21-with-suspension-and-fakescheduler/' not found
+git repo ShopforPyro/shop-for-pyrocms failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/cojoj_pms'...
+git repo Kamikazeee/kamiengine failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Kamikazeee_kamiengine'...
+fatal: repository 'https://bitbucket.org/Kamikazeee/kamiengine/' not found
+git repo colony005/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/colony005_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/colony005/c-plus-equality/': The requested URL returned error: 503
+git repo matthewjumpsoffbuildings/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/matthewjumpsoffbuildings_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/matthewjumpsoffbuildings/c-plus-equality/': The requested URL returned error: 503
+git repo intrepion/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/intrepion_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/intrepion/c-plus-equality/': The requested URL returned error: 503
+hg repo e_seledtsow/course-work failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo mkuhlmann/googlemusichotkeys failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/yevlev_cpp_ex2'...
+git repo fdang/matmul failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mateusztchor_laborki4'...
+git repo Katarzyna15l/labs-1 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 21 changesets with 117 changes to 49 files
+	Std Err: 
+git repo evanagee/sassgrid failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/evanagee_sassgrid'...
+fatal: unable to access 'https://bitbucket.org/evanagee/sassgrid/': The requested URL returned error: 503
+git repo distinctgrey/nodeschool failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/distinctgrey_nodeschool'...
+fatal: repository 'https://bitbucket.org/distinctgrey/nodeschool/' not found
+hg repo drupollini/lmm_sabr_goggle failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo kslr/phpmailer-masse failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kslr_phpmailer-masse'...
+fatal: repository 'https://bitbucket.org/kslr/phpmailer-masse/' not found
+git repo invdrzim13/pokemonaxis failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/invdrzim13_pokemonaxis'...
+fatal: repository 'https://bitbucket.org/invdrzim13/pokemonaxis/' not found
+hg repo Phil-MB/whistle failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo dpollini/datastream_parser failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo aivosha/test1 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo w01258123/wahed.mohamed failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/w01258123_wahed.mohamed'...
+fatal: unable to access 'https://bitbucket.org/w01258123/wahed.mohamed/': The requested URL returned error: 503

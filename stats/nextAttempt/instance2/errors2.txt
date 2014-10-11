@@ -1,0 +1,117 @@
+TEST2
+git repo gustavohw/jogodavelha failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bandjalah_sharing'...
+hg repo slesage/myquotefork failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo bjonreyes/wordsmith failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_wordsmith'...
+fatal: repository 'https://bitbucket.org/bjonreyes/wordsmith/' not found
+git repo socapex/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/socapex_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/socapex/c-plus-equality/': The requested URL returned error: 503
+git repo Sajmon/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Sajmon_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/Sajmon/c-plus-equality/': The requested URL returned error: 503
+git repo bjonreyes/polyvox failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_polyvox'...
+fatal: repository 'https://bitbucket.org/bjonreyes/polyvox/' not found
+git repo rujutak/rakesh-test failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/thegres_auction'...
+git repo DrRickDaglessMD/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/DrRickDaglessMD_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/DrRickDaglessMD/c-plus-equality/': The requested URL returned error: 503
+git repo kony/workshop failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kony_workshop'...
+fatal: repository 'https://bitbucket.org/kony/workshop/' not found
+hg repo sergii_tsyban/space-shit failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo joncooperworks/imagetracker failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/marokodanz_dziennik'...
+git repo Katarzyna15l/labs-0 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kamilwyszomierski_labs-7'...
+git repo mmarcysiak/a failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mmarcysiak_a'...
+fatal: repository 'https://bitbucket.org/mmarcysiak/a/' not found
+git repo sparkinson/random-passwd failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/sparkinson_random-passwd'...
+fatal: unable to access 'https://bitbucket.org/sparkinson/random-passwd/': The requested URL returned error: 503
+git repo BlackRaven/catalysis failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/dsparkplug_git-test'...
+git repo kevinv033/sample-classes failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kevinv033_sample-classes'...
+fatal: repository 'https://bitbucket.org/kevinv033/sample-classes/' not found
+hg repo trytonspain/trytond-party_bank_es failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 503: Repository Unavailable
+git repo smorlax/proxmox failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/smorlax_proxmox'...
+fatal: repository 'https://bitbucket.org/smorlax/proxmox/' not found
+hg repo kalperin/textview failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo dpollini/pysmoke-parent failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo stedina/stedina failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/stedina_stedina'...
+fatal: unable to access 'https://bitbucket.org/stedina/stedina/': The requested URL returned error: 503

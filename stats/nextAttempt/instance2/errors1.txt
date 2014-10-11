@@ -1,0 +1,143 @@
+TEST2
+hg repo sr105/linux-sakoman failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 253205 bytes, expected 963890)
+git repo sashmit/sss failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 26 changesets with 2732 changes to 1575 files
+	Std Err: 
+git repo becocastelo/althoff-android failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/dcbartlett_petfinder'...
+git repo bjonreyes/vlc-android failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_vlc-android'...
+fatal: repository 'https://bitbucket.org/bjonreyes/vlc-android/' not found
+git repo dominiksuszczewicz/hackathon failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/dominiksuszczewicz_hackathon'...
+fatal: repository 'https://bitbucket.org/dominiksuszczewicz/hackathon/' not found
+git repo fYZJbPiGZqy0a/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/fYZJbPiGZqy0a_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/fYZJbPiGZqy0a/c-plus-equality/': The requested URL returned error: 503
+git repo bperin/riffsytest failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bperin_riffsytest'...
+fatal: repository 'https://bitbucket.org/bperin/riffsytest/' not found
+git repo klaut/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/klaut_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/klaut/c-plus-equality/': The requested URL returned error: 503
+git repo dkostakev/incidentally failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/dkostakev_incidentally'...
+fatal: repository 'https://bitbucket.org/dkostakev/incidentally/' not found
+git repo bPratik/msmatchesdemo failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/joeabhishek_sample_app'...
+hg repo michal422/zadanie-4 failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+	Std Err: 
+abort: HTTP Error 500: Internal Server Error
+hg repo dpollini/mint-template failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo ahernana/fragmentstest failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/ahernana_fragmentstest'...
+fatal: repository 'https://bitbucket.org/ahernana/fragmentstest/' not found
+git repo dstorozhuk/prv_chat failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 29 changesets with 43 changes to 17 files
+	Std Err: 
+git repo michudy/labs-b failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/sv004aqc_for-aqc-training'...
+git repo michudy/labs-9 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 1 changesets with 80 changes to 80 files
+	Std Err: 
+hg repo DaveVdE/stufftrackr failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 3 changesets with 8 changes to 7 files
+	Std Err: 
+git repo pypetey/git-tutorial failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/pypetey_git-tutorial'...
+fatal: repository 'https://bitbucket.org/pypetey/git-tutorial/' not found
+git repo neuralsandwich/first_app failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/neuralsandwich_first_app'...
+fatal: repository 'https://bitbucket.org/neuralsandwich/first_app/' not found
+hg repo jlm/rust-sdl2 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo to66adeb8/wiki failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 503: Repository Unavailable
+git repo tiranov/tiranov07 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/tiranov_tiranov07'...
+fatal: unable to access 'https://bitbucket.org/tiranov/tiranov07/': The requested URL returned error: 503

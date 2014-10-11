@@ -1,0 +1,52 @@
+TEST2
+git repo pureaur/pureaur.bitbucket.org failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/pureaur_pureaur.bitbucket.org'...
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+git repo nkanayan/proms failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/creamzie_latyra'...
+git repo Jake0oo0/avalanche failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/manuel_corrales_tesisml'...
+hg repo hmjack2008/devo10 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 503: Repository Unavailable
+git repo goshik_e/stikerup failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/pserrano_sysadmin-tools'...
+git repo budzek/cp_ex_2 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/budzek_cp_ex_2'...
+fatal: repository 'https://bitbucket.org/budzek/cp_ex_2/' not found
+git repo Comphuse/project-euler failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Comphuse_project-euler'...
+fatal: repository 'https://bitbucket.org/Comphuse/project-euler/' not found
+hg repo dpollini/pysmoke-us-child failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo yeah-shy/yeah-shy failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/yeah-shy_yeah-shy'...
+fatal: unable to access 'https://bitbucket.org/yeah-shy/yeah-shy/': The requested URL returned error: 503
