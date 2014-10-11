@@ -1,0 +1,171 @@
+TEST2
+git repo meke/momongalinux-trunk failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/meke_momongalinux-trunk'...
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+git repo natospecialforces/natounits failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/natospecialforces_natounits'...
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: unpack-objects failed
+hg repo tuxtor/jdk8-langtools failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo sleschenko/lavsvr failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 87 changesets with 2014 changes to 1892 files
+	Std Err: 
+git repo benwaffle/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/benwaffle_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/benwaffle/c-plus-equality/': The requested URL returned error: 503
+git repo johncurley/aerialservices failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 1383 changesets with 5115 changes to 315 files (+4 heads)
+	Std Err: 
+hg repo tuxtor/jdk8-corba failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo Jubobs/matlab-prettifier failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Jubobs_matlab-prettifier'...
+fatal: repository 'https://bitbucket.org/Jubobs/matlab-prettifier/' not found
+hg repo dpollini/fennel failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo jmc88/dot-files failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/metal347_trayecto'...
+git repo michudy/labs-1 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/ajabutex_ajabutex.bitbucket.org'...
+git repo dtownsend/burgerbar failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/dtownsend_burgerbar'...
+fatal: repository 'https://bitbucket.org/dtownsend/burgerbar/' not found
+git repo Savjee/informer failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Savjee_informer'...
+fatal: unable to access 'https://bitbucket.org/Savjee/informer/': The requested URL returned error: 503
+git repo kyr/wn failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kyr_wn'...
+fatal: repository 'https://bitbucket.org/kyr/wn/' not found
+git repo jigme/zixun failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jigme_zixun'...
+fatal: repository 'https://bitbucket.org/jigme/zixun/' not found
+git repo s2390337/dbweb-homework failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/s2390337_dbweb-homework'...
+fatal: repository 'https://bitbucket.org/s2390337/dbweb-homework/' not found
+git repo catinoc/dbpipe failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/ShivarajRH007_jql'...
+git repo chauttm/asg04 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/chauttm_asg04'...
+fatal: repository 'https://bitbucket.org/chauttm/asg04/' not found
+git repo drumsrgr8forn8/my_parser failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/drumsrgr8forn8_my_parser'...
+fatal: repository 'https://bitbucket.org/drumsrgr8forn8/my_parser/' not found
+git repo jigme/mymeteors failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jigme_mymeteors'...
+fatal: repository 'https://bitbucket.org/jigme/mymeteors/' not found
+hg repo drupollini/lmm_sabr_bubble failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo bjonreyes/odeskterrain failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_odeskterrain'...
+fatal: repository 'https://bitbucket.org/bjonreyes/odeskterrain/' not found
+hg repo adrianromero/adrianromero.bitbucket.org failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo aivosha/restor failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 7 changesets with 8 changes to 3 files
+	Std Err: 
+hg repo MaxVasin/scripts failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo evzijst/emptyhg_mq failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: http authorization required
+hg repo pgombas/jms_exmaple failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo mahmoud_sabry/mahmoud failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mahmoud_sabry_mahmoud'...
+fatal: unable to access 'https://bitbucket.org/mahmoud_sabry/mahmoud/': The requested URL returned error: 503

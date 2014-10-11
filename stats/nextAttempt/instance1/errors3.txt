@@ -1,0 +1,68 @@
+TEST2
+hg repo jlahoda/jet-main failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 4122 bytes, expected 7315)
+git repo nodecraft/server-jars failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/nodecraft_server-jars'...
+fatal: repository 'https://bitbucket.org/nodecraft/server-jars/' not found
+git repo TonySniper/projetogoodbom failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mdulce_bootstrap'...
+git repo jkoorts/photocapture failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jkoorts_photocapture'...
+fatal: repository 'https://bitbucket.org/jkoorts/photocapture/' not found
+git repo swisstxt/cloudstack-nagios failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/swisstxt_cloudstack-nagios'...
+fatal: repository 'https://bitbucket.org/swisstxt/cloudstack-nagios/' not found
+git repo K15t/bootstrap-theme failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/K15t_bootstrap-theme'...
+fatal: repository 'https://bitbucket.org/K15t/bootstrap-theme/' not found
+git repo huangshu/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/huangshu_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/huangshu/c-plus-equality/': The requested URL returned error: 503
+git repo dsc-elwin/site_4_mobile_responsive failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/dsc-elwin_site_4_mobile_responsive'...
+fatal: repository 'https://bitbucket.org/dsc-elwin/site_4_mobile_responsive/' not found
+hg repo boh/mpi_lab2 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo dietor/hcgd failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 503: Repository Unavailable
+git repo alexxsong/lab-1 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/alexxsong_lab-1'...
+fatal: unable to access 'https://bitbucket.org/alexxsong/lab-1/': The requested URL returned error: 503

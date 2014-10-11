@@ -1,0 +1,78 @@
+TEST2
+hg repo abdlquadri/netbeans-sources-main-silver failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 52383 bytes, expected 237102)
+hg repo hkenichi/netbsd-src failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 407 bytes, expected 417)
+git repo bmats/opentld failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/cogumbreiro_armus-x10'...
+hg repo dpollini/mint failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo mudfly/pico failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mudfly_pico'...
+fatal: repository 'https://bitbucket.org/mudfly/pico/' not found
+git repo irakuri/languagetool.org failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/irakuri_languagetool.org'...
+fatal: repository 'https://bitbucket.org/irakuri/languagetool.org/' not found
+git repo poida2012/python-play failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/poida2012_python-play'...
+fatal: repository 'https://bitbucket.org/poida2012/python-play/' not found
+git repo webdeveric/visitor-member-shortcodes failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/yesdi123_email-checker'...
+git repo Lantern_Spirit/spacegame failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Lantern_Spirit_spacegame'...
+fatal: repository 'https://bitbucket.org/Lantern_Spirit/spacegame/' not found
+git repo Sautin001/healpos failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Sautin001_healpos'...
+fatal: unable to access 'https://bitbucket.org/Sautin001/healpos/': The requested URL returned error: 503
+hg repo jumpeiinomata/tetris failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo mcsure/images failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mcsure_images'...
+fatal: unable to access 'https://bitbucket.org/mcsure/images/': The requested URL returned error: 503

@@ -1,0 +1,117 @@
+TEST2
+hg repo dspinellis/ooo340 failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 1993782 bytes, expected 2975148)
+hg repo janthonywilson/db_pipeline_customizations failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+	Std Err: 
+transaction abort!
+rollback completed
+abort: connection ended unexpectedly
+hg repo purelang/purelang.bitbucket.org failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo retroniq/pracadyplomowa failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/retroniq_pracadyplomowa'...
+fatal: repository 'https://bitbucket.org/retroniq/pracadyplomowa/' not found
+hg repo tuxtor/jdk8-jdk failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo rfilkov/kinectsensoropenni2 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 23 changesets with 17584 changes to 7533 files
+	Std Err: 
+git repo corton/thebusinesscampus failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/corton_thebusinesscampus'...
+fatal: repository 'https://bitbucket.org/corton/thebusinesscampus/' not found
+git repo voodoo11/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/voodoo11_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/voodoo11/c-plus-equality/': The requested URL returned error: 503
+git repo yifeim/resume failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/scrooloose_verificationgem'...
+git repo bknapinska/labs-1 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/pjanczewski_labs-9'...
+git repo fabisilva3154/ace failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/fabisilva3154_ace'...
+fatal: repository 'https://bitbucket.org/fabisilva3154/ace/' not found
+git repo 7dyne/yaimessenger failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/7dyne_yaimessenger'...
+fatal: repository 'https://bitbucket.org/7dyne/yaimessenger/' not found
+git repo tfont/code-snippets failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/tfont_code-snippets'...
+fatal: repository 'https://bitbucket.org/tfont/code-snippets/' not found
+git repo sme000tana/new failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/sme000tana_new'...
+fatal: unable to access 'https://bitbucket.org/sme000tana/new/': The requested URL returned error: 503
+git repo ddinchev/scala failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/ddinchev_scala'...
+fatal: repository 'https://bitbucket.org/ddinchev/scala/' not found
+git repo goldenarch/downloads failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/goldenarch_downloads'...
+fatal: repository 'https://bitbucket.org/goldenarch/downloads/' not found
+hg repo boh/mpi_lab3 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo desh57/desh57 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/desh57_desh57'...
+fatal: unable to access 'https://bitbucket.org/desh57/desh57/': The requested URL returned error: 503

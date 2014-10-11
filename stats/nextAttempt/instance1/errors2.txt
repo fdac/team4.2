@@ -1,0 +1,128 @@
+TEST2
+hg repo dogyearm/toruuetani.bitbucket.org failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo MrCraftCod_team/isn failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jhatherly_aui'...
+git repo bjonreyes/shoot-em-up failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_shoot-em-up'...
+fatal: repository 'https://bitbucket.org/bjonreyes/shoot-em-up/' not found
+git repo wuliupo/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/wuliupo_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/wuliupo/c-plus-equality/': The requested URL returned error: 503
+git repo thomas_steinhauer/hebammen-translate failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/thomas_steinhauer_hebammen-translate'...
+fatal: repository 'https://bitbucket.org/thomas_steinhauer/hebammen-translate/' not found
+hg repo tuxtor/jdk8-nashorn failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo haw/glastopf failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/haw_glastopf'...
+fatal: repository 'https://bitbucket.org/haw/glastopf/' not found
+git repo hvanderhorst/src failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/hvanderhorst_src'...
+fatal: repository 'https://bitbucket.org/hvanderhorst/src/' not found
+git repo lordghost/drender failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/lordghost_drender'...
+fatal: repository 'https://bitbucket.org/lordghost/drender/' not found
+hg repo jhuerta/sqltest failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo dpollini/mint-session failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo waxfrog/forest-holidays-14-oct-2013 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/waxfrog_forest-holidays-14-oct-2013'...
+fatal: repository 'https://bitbucket.org/waxfrog/forest-holidays-14-oct-2013/' not found
+git repo jigme/hpm-mirror failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jigme_hpm-mirror'...
+fatal: repository 'https://bitbucket.org/jigme/hpm-mirror/' not found
+hg repo fr710/pycparser failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo fae_east_sw/meta-fsl-imx-faes failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/adampl_pm'...
+git repo tim2819/rlcore46 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/tim2819_rlcore46'...
+fatal: repository 'https://bitbucket.org/tim2819/rlcore46/' not found
+hg repo nestornav/smallprojects failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo FeministSoftwareFoundation/c-syntax-highlighting-for-ver-was-vim failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/FeministSoftwareFoundation_c-syntax-highlighting-for-ver-was-vim'...
+fatal: unable to access 'https://bitbucket.org/FeministSoftwareFoundation/c-syntax-highlighting-for-ver-was-vim/': The requested URL returned error: 503
+hg repo catseye/atari-2600-skeleton failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 503: Repository Unavailable
+git repo bitshoogie/trabalhopic failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bitshoogie_trabalhopic'...
+fatal: repository 'https://bitbucket.org/bitshoogie/trabalhopic/' not found
+hg repo boh/mpi_lab1 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo cphs_uiowa/web-accessibility failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo Hayesalmand/hayes failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Hayesalmand_hayes'...
+fatal: unable to access 'https://bitbucket.org/Hayesalmand/hayes/': The requested URL returned error: 503

@@ -1,0 +1,96 @@
+TEST2
+hg repo akorneev/boost-mirror failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 4835 bytes, expected 18845)
+git repo bjonreyes/bjonreyes.bitbucket.org-cars failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_bjonreyes.bitbucket.org-cars'...
+fatal: repository 'https://bitbucket.org/bjonreyes/bjonreyes.bitbucket.org-cars/' not found
+git repo blafarus/projet-equitation failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 1155 changesets with 2480 changes to 443 files
+	Std Err: 
+git repo ondrs/vehico-monitoring failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 155 changesets with 606 changes to 259 files
+	Std Err: 
+git repo lordghost/vrplayer failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/lordghost_vrplayer'...
+fatal: repository 'https://bitbucket.org/lordghost/vrplayer/' not found
+git repo willnavidson/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/willnavidson_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/willnavidson/c-plus-equality/': The requested URL returned error: 503
+git repo adaptationdevelopment/ad-spring-view-thymeleaf-dialect-layout failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/adaptationdevelopment_ad-spring-view-thymeleaf-dialect-layout'...
+fatal: repository 'https://bitbucket.org/adaptationdevelopment/ad-spring-view-thymeleaf-dialect-layout/' not found
+git repo bjonreyes/unity-rts-demo failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_unity-rts-demo'...
+fatal: repository 'https://bitbucket.org/bjonreyes/unity-rts-demo/' not found
+git repo bxh5868/pcassignment3 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bxh5868_pcassignment3'...
+fatal: repository 'https://bitbucket.org/bxh5868/pcassignment3/' not found
+git repo meritocracy1967/processlib failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/meritocracy1967_processlib'...
+fatal: unable to access 'https://bitbucket.org/meritocracy1967/processlib/': The requested URL returned error: 503
+git repo Scoin0/burn failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Scoin0_burn'...
+fatal: repository 'https://bitbucket.org/Scoin0/burn/' not found
+git repo FeministSoftwareFoundation/privcheck-ide failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/FeministSoftwareFoundation_privcheck-ide'...
+fatal: unable to access 'https://bitbucket.org/FeministSoftwareFoundation/privcheck-ide/': The requested URL returned error: 503
+git repo langha/testvirtualbs failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/langha_testvirtualbs'...
+fatal: repository 'https://bitbucket.org/langha/testvirtualbs/' not found
+git repo nsexton/jefferypalermo-mvc failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/nsexton_jefferypalermo-mvc'...
+fatal: unable to access 'https://bitbucket.org/nsexton/jefferypalermo-mvc/': The requested URL returned error: 503

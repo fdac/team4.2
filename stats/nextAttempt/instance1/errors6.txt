@@ -1,0 +1,88 @@
+TEST2
+git repo groolot/masters_audio failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/groolot_masters_audio'...
+error: RPC failed; result=22, HTTP code = 502
+fatal: The remote end hung up unexpectedly
+git repo BlackRaven/ravenclaw-barebones failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 2535 changesets with 2951 changes to 342 files
+	Std Err: 
+git repo juice49/wakeley failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/scorebig_elita'...
+git repo tooobig/krestikinoliki failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/tooobig_krestikinoliki'...
+fatal: repository 'https://bitbucket.org/tooobig/krestikinoliki/' not found
+git repo RebeccaWalker/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/RebeccaWalker_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/RebeccaWalker/c-plus-equality/': The requested URL returned error: 503
+git repo pddo/knu-iii-semester-oop failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/pddo_knu-iii-semester-oop'...
+fatal: unable to access 'https://bitbucket.org/pddo/knu-iii-semester-oop/': The requested URL returned error: 503
+hg repo jozefg/grapht failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo alanchiang/ece438 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kwaters_restkit'...
+git repo jrkettle/2014-contest-sample-clients failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/wian_potgieter_qtadb'...
+hg repo asmuelle/webtest failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo nullUserException/truetyper failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/nullUserException_truetyper'...
+fatal: repository 'https://bitbucket.org/nullUserException/truetyper/' not found
+git repo INFO-F209/sources failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/INFO-F209_sources'...
+fatal: repository 'https://bitbucket.org/INFO-F209/sources/' not found
+hg repo dpollini/pysmoke-uk-child failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo brhjr/stackmob-idw failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo jlrieger/jennifer-rieger failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jlrieger_jennifer-rieger'...
+fatal: unable to access 'https://bitbucket.org/jlrieger/jennifer-rieger/': The requested URL returned error: 503

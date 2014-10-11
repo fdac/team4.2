@@ -1,0 +1,114 @@
+TEST2
+hg repo snadi/farce-linuxanalysis failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+	Std Err: 
+transaction abort!
+rollback completed
+abort: connection ended unexpectedly
+git repo Wballard/boxes failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Wballard_boxes'...
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: unpack-objects failed
+git repo acassanova/c-projects-swimfish failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/gaudi_br_datasci_course_materials'...
+hg repo livioribeiro/bitbucket-tutorial-fork failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo bjonreyes/unityasteroids failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_unityasteroids'...
+fatal: repository 'https://bitbucket.org/bjonreyes/unityasteroids/' not found
+hg repo dpollini/fennel-release failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo FeministSoftwareFoundation/inherpreter failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/FeministSoftwareFoundation_inherpreter'...
+fatal: unable to access 'https://bitbucket.org/FeministSoftwareFoundation/inherpreter/': The requested URL returned error: 503
+hg repo danysk/laboratorio-di-fondamenti-di-informatica-a-2012-13 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo mkowieski/mvcphp failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mkowieski_mvcphp'...
+fatal: repository 'https://bitbucket.org/mkowieski/mvcphp/' not found
+hg repo czyzykowski/django-piston failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo mateusz_marcysiak/tablety failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mateusz_marcysiak_tablety'...
+fatal: repository 'https://bitbucket.org/mateusz_marcysiak/tablety/' not found
+hg repo pstanev/homework failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+	Std Err: 
+abort: HTTP Error 500: Internal Server Error
+git repo samdcbu/html-playground failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/samdcbu_html-playground'...
+fatal: repository 'https://bitbucket.org/samdcbu/html-playground/' not found
+git repo bjonreyes/particle-shooter failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bjonreyes_particle-shooter'...
+fatal: repository 'https://bitbucket.org/bjonreyes/particle-shooter/' not found
+hg repo boh/qnx_lab3 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+hg repo terrel_shumway/lfstoo failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo izekdonovan/miram failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/izekdonovan_miram'...
+fatal: unable to access 'https://bitbucket.org/izekdonovan/miram/': The requested URL returned error: 503
+hg repo to66adeb8/wordpressthemes failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 503: Repository Unavailable
+git repo Theeocto_/gc failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Theeocto__gc'...
+fatal: unable to access 'https://bitbucket.org/Theeocto_/gc/': The requested URL returned error: 503
