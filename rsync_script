@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo '|||||||||||||||||||||||||||||||||'
+echo '      STARTING GIT REPO SYNC     '
+echo '|||||||||||||||||||||||||||||||||'
+
+time -p rsync -vae 'ssh -i /home/ec2-user/.ssh/id_rsa_rsync -p 2202' /home/ec2-user/git cdaffron@da2.eecs.utk.edu:git
+
+echo 'Done with first sync'
+echo ''
+
+echo '|||||||||||||||||||||||||||||||||'
+echo '      STARTING HG REPO SYNC      '
+echo '|||||||||||||||||||||||||||||||||'
+
+time -p rsync -vae 'ssh -i /home/ec2-user/.ssh/id_rsa_rsync -p 2202' /home/ec2-user/hg cdaffron@da2.eecs.utk.edu:hg
+
+echo 'Done with final sync'
