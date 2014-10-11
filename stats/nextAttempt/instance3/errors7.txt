@@ -1,0 +1,77 @@
+TEST2
+git repo becocastelo/althoff-ios failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 7 changesets with 692 changes to 659 files
+	Std Err: 
+git repo FemPrideWorldWide/c-plus-equality-1 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/FemPrideWorldWide_c-plus-equality-1'...
+fatal: unable to access 'https://bitbucket.org/FemPrideWorldWide/c-plus-equality-1/': The requested URL returned error: 503
+git repo FeministSoftwareFoundation/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/FeministSoftwareFoundation_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/FeministSoftwareFoundation/c-plus-equality/': The requested URL returned error: 503
+git repo venuktan/singularvaluedecompositionrecommender failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Tooski_file-backup'...
+git repo mmunshi/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mmunshi_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/mmunshi/c-plus-equality/': The requested URL returned error: 503
+hg repo dpollini/mint-url failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo bxh5868/pcassignment1 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bxh5868_pcassignment1'...
+fatal: repository 'https://bitbucket.org/bxh5868/pcassignment1/' not found
+git repo ahernana/testapplication failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/ahernana_testapplication'...
+fatal: repository 'https://bitbucket.org/ahernana/testapplication/' not found
+git repo michudy/labs-0 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/nishimotz_nvdademoapp'...
+git repo cjdev/childhood failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/EdwardKang_facebook-lite'...
+git repo GreenXIII/aaa failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/GreenXIII_aaa'...
+fatal: repository 'https://bitbucket.org/GreenXIII/aaa/' not found
+hg repo arashzjahangiri/pool failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo mahmoud_sabry/ah-oud failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mahmoud_sabry_ah-oud'...
+fatal: unable to access 'https://bitbucket.org/mahmoud_sabry/ah-oud/': The requested URL returned error: 503

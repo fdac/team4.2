@@ -1,0 +1,57 @@
+TEST2
+hg repo tuxtor/jdk8-hotspot failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo PawelSmolinski/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/PawelSmolinski_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/PawelSmolinski/c-plus-equality/': The requested URL returned error: 503
+git repo retroniq/praca-in-ynierska-vaadin-crud failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/retroniq_praca-in-ynierska-vaadin-crud'...
+fatal: repository 'https://bitbucket.org/retroniq/praca-in-ynierska-vaadin-crud/' not found
+git repo kow/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kow_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/kow/c-plus-equality/': The requested URL returned error: 503
+git repo springersbm/ml-docker failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 1 changesets with 2 changes to 2 files
+	Std Err: 
+git repo jamiees2/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jamiees2_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/jamiees2/c-plus-equality/': The requested URL returned error: 503
+git repo AmandaMarcotte/c-plus-equality-1 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/AmandaMarcotte_c-plus-equality-1'...
+fatal: unable to access 'https://bitbucket.org/AmandaMarcotte/c-plus-equality-1/': The requested URL returned error: 503
+git repo bknapinska/lab0 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/bknapinska_lab0'...
+fatal: repository 'https://bitbucket.org/bknapinska/lab0/' not found
+git repo kelly58kim/kelly58kim1 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kelly58kim_kelly58kim1'...
+fatal: unable to access 'https://bitbucket.org/kelly58kim/kelly58kim1/': The requested URL returned error: 503

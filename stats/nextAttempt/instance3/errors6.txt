@@ -1,0 +1,53 @@
+TEST2
+hg repo tuxtor/jdk8-jaxp failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo thnery/androidalarmmanager failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/thnery_androidalarmmanager'...
+fatal: repository 'https://bitbucket.org/thnery/androidalarmmanager/' not found
+git repo maartenberg/tikkit failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 6 changesets with 94 changes to 48 files
+	Std Err: 
+hg repo ebruck/radio-tray failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/modern_progress-animation'...
+git repo Ward/declprog-project failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Ward_declprog-project'...
+fatal: unable to access 'https://bitbucket.org/Ward/declprog-project/': The requested URL returned error: 503
+git repo michudy/labs-5 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/sammthomson_depparsershootout'...
+git repo michudy/labs-3 failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/rjdudley_passphrase'...
+hg repo jozefg/algo-ds failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo erekhinskaya/drafts failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/erekhinskaya_drafts'...
+fatal: unable to access 'https://bitbucket.org/erekhinskaya/drafts/': The requested URL returned error: 503

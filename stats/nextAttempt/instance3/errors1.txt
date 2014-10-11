@@ -1,0 +1,120 @@
+TEST2
+hg repo msuhardi/timelapse-research failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 7074 bytes, expected 11789)
+hg repo tuxtor/jdk8-jaxws failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo nabeel0092/game failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/nabeel0092_game'...
+fatal: repository 'https://bitbucket.org/nabeel0092/game/' not found
+git repo gsakkis/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/gsakkis_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/gsakkis/c-plus-equality/': The requested URL returned error: 503
+hg repo slawekmikula/rpi_dimmer failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 74907 bytes, expected 100365)
+git repo asmartgoat/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/asmartgoat_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/asmartgoat/c-plus-equality/': The requested URL returned error: 503
+git repo erisblastar7/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/erisblastar7_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/erisblastar7/c-plus-equality/': The requested URL returned error: 503
+hg repo tuxtor/jdk8 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo lordghost/natalify failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/lordghost_natalify'...
+fatal: repository 'https://bitbucket.org/lordghost/natalify/' not found
+git repo e7solutions/e7-atlassian-rse failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/onclhubens_systemescon'...
+git repo madrussian/cpu-grinder failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/madrussian_cpu-grinder'...
+fatal: repository 'https://bitbucket.org/madrussian/cpu-grinder/' not found
+git repo adaptationdevelopment/ad-spring-security-cas failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/adaptationdevelopment_ad-spring-security-cas'...
+fatal: repository 'https://bitbucket.org/adaptationdevelopment/ad-spring-security-cas/' not found
+git repo ChrisLavender/codegetter failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/33174_micubes'...
+git repo smorlax/rootme failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/smorlax_rootme'...
+fatal: repository 'https://bitbucket.org/smorlax/rootme/' not found
+git repo ehl/miffy-2.0 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/ehl_miffy-2.0'...
+fatal: repository 'https://bitbucket.org/ehl/miffy-2.0/' not found
+hg repo jozefg/graphchi-lenskit-module failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo kefir500/downloads failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/kefir500_downloads'...
+fatal: repository 'https://bitbucket.org/kefir500/downloads/' not found
+git repo andrej_dvornik/astro failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/andrej_dvornik_astro'...
+fatal: repository 'https://bitbucket.org/andrej_dvornik/astro/' not found
+git repo mmohanakrishnan/exemplis failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/mmohanakrishnan_exemplis'...
+fatal: unable to access 'https://bitbucket.org/mmohanakrishnan/exemplis/': The requested URL returned error: 503

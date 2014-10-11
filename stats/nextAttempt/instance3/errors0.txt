@@ -1,0 +1,75 @@
+TEST2
+git repo natospecialforces/natomaps failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/natospecialforces_natomaps'...
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+git repo h4ck3rm1k3/federal-election-commission-aggregation-2012 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/h4ck3rm1k3_federal-election-commission-aggregation-2012'...
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+git repo JorgeCastro/mapa-digital failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/JorgeCastro_mapa-digital'...
+fatal: repository 'https://bitbucket.org/JorgeCastro/mapa-digital/' not found
+git repo boh/mrtsqr failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/boh_mrtsqr'...
+fatal: repository 'https://bitbucket.org/boh/mrtsqr/' not found
+hg repo sharavsambuu/benzaiten failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo smash_the_cisatriarchy/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/smash_the_cisatriarchy_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/smash_the_cisatriarchy/c-plus-equality/': The requested URL returned error: 503
+git repo valerieaurora/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/valerieaurora_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/valerieaurora/c-plus-equality/': The requested URL returned error: 503
+git repo bibercraftdev/bccore failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/juan_sanchez_monitoapp'...
+git repo unload/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/unload_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/unload/c-plus-equality/': The requested URL returned error: 503
+git repo rancidsauerkraut/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/rancidsauerkraut_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/rancidsauerkraut/c-plus-equality/': The requested URL returned error: 503
+git repo dloard/newspost failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/dloard_newspost'...
+fatal: unable to access 'https://bitbucket.org/dloard/newspost/': The requested URL returned error: 503
+git repo jpgochile/tipsurvey failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/jpgochile_tipsurvey'...
+fatal: unable to access 'https://bitbucket.org/jpgochile/tipsurvey/': The requested URL returned error: 503

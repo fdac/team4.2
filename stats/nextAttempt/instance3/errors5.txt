@@ -1,0 +1,80 @@
+TEST2
+hg repo snadi/farce-ecosanalysis failed to clone
+Status Code: 255
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+	Std Err: 
+transaction abort!
+rollback completed
+abort: stream ended unexpectedly (got 29702029 bytes, expected 107606423)
+git repo PixelEater11/3d-shooter failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/PixelEater11_3d-shooter'...
+fatal: repository 'https://bitbucket.org/PixelEater11/3d-shooter/' not found
+git repo retroniq/projekttai failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/retroniq_projekttai'...
+fatal: repository 'https://bitbucket.org/retroniq/projekttai/' not found
+git repo Aremookephy/c-plus-equality failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/Aremookephy_c-plus-equality'...
+fatal: unable to access 'https://bitbucket.org/Aremookephy/c-plus-equality/': The requested URL returned error: 503
+git repo Jake0oo0/equinox failed to clone PRIVATE
+Status Code: 0
+	Std Out: 
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 46 changesets with 165 changes to 55 files
+	Std Err: 
+git repo zokeber/neuronadicta.com failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/zokeber_neuronadicta.com'...
+fatal: repository 'https://bitbucket.org/zokeber/neuronadicta.com/' not found
+git repo zengxinhai/openshift-solr-cartridge failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/zengxinhai_openshift-solr-cartridge'...
+fatal: repository 'https://bitbucket.org/zengxinhai/openshift-solr-cartridge/' not found
+git repo INFO-F209/https-nqachri-gitent-scm.com-git-infof209-groupe1_2013 failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/INFO-F209_https-nqachri-gitent-scm.com-git-infof209-groupe1_2013'...
+fatal: repository 'https://bitbucket.org/INFO-F209/https-nqachri-gitent-scm.com-git-infof209-groupe1_2013/' not found
+git repo cv79tase/news failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/cv79tase_news'...
+fatal: unable to access 'https://bitbucket.org/cv79tase/news/': The requested URL returned error: 503
+git repo LuckyLuke75/confeature failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/LuckyLuke75_confeature'...
+fatal: repository 'https://bitbucket.org/LuckyLuke75/confeature/' not found
+hg repo boh/qnx_lab2 failed to clone
+Status Code: 255
+	Std Out: 
+	Std Err: 
+abort: HTTP Error 404: Not Found
+git repo issyam/first failed to clone
+Status Code: 128
+	Std Out: 
+	Std Err: 
+Cloning into bare repository 'git/issyam_first'...
+fatal: unable to access 'https://bitbucket.org/issyam/first/': The requested URL returned error: 503
