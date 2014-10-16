@@ -33,6 +33,11 @@ members = db['members']
 # A member
 spongebob = { 'name' : 'SpongeBob SquarePants', 'awesomenessLevel' : 9 }
 
+# Notice: MongoDB is lazy
+#   - It doesn't create a database until a collection is added.
+#   - It doesn't create a collection until a document (JSON object) is inserted.
+# This means the next line of code creates our database and collection
+
 # Add the member to the members collection
 members.insert(spongebob)
 
