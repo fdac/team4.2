@@ -6,17 +6,23 @@ client = pymongo.MongoClient('localhost')
 # client = pymongo.MongoClient('da0.eecs.utk.edu')
 
 bitbucket = client['bitbucket']
-contribByUser = bitbucket['ContribByUser']
 forks = bitbucket['forks']
+repoForkCount = bitbucket['repoForkCount']
 
-for user in contribByUser.find():
-  
-  repos = user['repos']
-  for repo in repos:
+for fork in forks():
 
-    repoUrl = 'https://api.bitbucket.org/2.0/repositories/' + repo + '/forks'
-    forkDoc = forks.find_one( { 'url' : repoUrl } )
-    forkJson = json_util.dump( forkDoc, sort_keys=False, indent=2, separators=( ',', ':' ) )
-    print forkJson
+  forkUrl = fork['url']
+  repoName = forkUrl.replace('https://api.bitbucket.org/2.0/repositories/', '').replace('/forks', '')
+  forkCount = len( fork['values'] )
 
-  break
+  result = repoForkCount.find_one( { 'repoName' : repoName } )
+  if result == None:
+    repoDoc = { 'repoName' : repoName, 'count' : forkCount }
+    repoForkCount.insert( repoDoc )
+    print 'Inserting ' + repoName + ' with ' + forkCount + ' forks'
+  else:
+    repoDoc = result
+    repoDoc['count'] += forkCount
+    repoForkCount.update( {'_id' : result['_id'] }, { '$set' : repoDoc } )
+    print 'Updating ' + repoName + ' with ' + forkCount + ' forks'
+
