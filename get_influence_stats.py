@@ -10,12 +10,16 @@ for doc in commits.find():
     try:
       username = value['author']['user']['username']
       repo = value['repository']['full_name']
-      print username
+      # print username
       result = cbu.find_one({'username': username})
       if result is None:
         temp = {'username': username, 'repos': [repo]}
         cbu.insert(temp)
       else:
-        result['repos'].append(repo)
+        if repo not in result['repos']:
+          result['repos'].append(repo)
+          cbu.update({'_id': result['_id']}, {'$set': result})
+        else:
+          print 'Repo already present'
     except:
-      print 'No username for commit'
+      # print 'No username for commit'
