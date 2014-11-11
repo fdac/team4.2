@@ -1,0 +1,19 @@
+
+Influence of a user in a project:
+- # commits in a project
+- amount of code added to a project(s)
+
+Influence of a user:
+- # of projects part of
+- # of quality projects part of (define quality)
+- # of non-owner projects working on
+- # of followers
+- # of connections (followers or following)
+- # of implemented pull requests
+
+Influence of a project:
+- # of forks
+- # of pull requests
+- # of unique commiters
+- # of projects that depend on a project (define dependency)
+- # of clones

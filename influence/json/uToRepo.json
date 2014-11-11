@@ -1,0 +1,71 @@
+{
+    "_id": {
+        "$oid": "54495131a7ef676607f0e0bd"
+    }, 
+    "url": "https://bitbucket.org/api/2.0/repositories/000000brodie", 
+    "values": [
+        {
+            "created_on": "2011-11-11T23:03:56.690692+00:00", 
+            "description": "", 
+            "fork_policy": "allow_forks", 
+            "full_name": "000000brodie/public-testing", 
+            "has_issues": true, 
+            "has_wiki": false, 
+            "is_private": false, 
+            "language": "", 
+            "links": {
+                "avatar": {
+                    "href": "https://d3oaxc4q5k2d6q.cloudfront.net/m/bc2c3d924a20/img/language-avatars/default_16.png"
+                }, 
+                "clone": [
+                    {
+                        "href": "https://bitbucket.org/000000brodie/public-testing", 
+                        "name": "https"
+                    }, 
+                    {
+                        "href": "ssh://hg@bitbucket.org/000000brodie/public-testing", 
+                        "name": "ssh"
+                    }
+                ], 
+                "commits": {
+                    "href": "https://bitbucket.org/api/2.0/repositories/000000brodie/public-testing/commits"
+                }, 
+                "forks": {
+                    "href": "https://bitbucket.org/api/2.0/repositories/000000brodie/public-testing/forks"
+                }, 
+                "html": {
+                    "href": "https://bitbucket.org/000000brodie/public-testing"
+                }, 
+                "pullrequests": {
+                    "href": "https://bitbucket.org/api/2.0/repositories/000000brodie/public-testing/pullrequests"
+                }, 
+                "self": {
+                    "href": "https://bitbucket.org/api/2.0/repositories/000000brodie/public-testing"
+                }, 
+                "watchers": {
+                    "href": "https://bitbucket.org/api/2.0/repositories/000000brodie/public-testing/watchers"
+                }
+            }, 
+            "name": "public-testing", 
+            "owner": {
+                "display_name": "000000brodie", 
+                "links": {
+                    "avatar": {
+                        "href": "https://d3oaxc4q5k2d6q.cloudfront.net/m/bc2c3d924a20/img/default_avatar/32/user_blue.png"
+                    }, 
+                    "html": {
+                        "href": "https://bitbucket.org/000000brodie"
+                    }, 
+                    "self": {
+                        "href": "https://bitbucket.org/api/2.0/users/000000brodie"
+                    }
+                }, 
+                "username": "000000brodie"
+            }, 
+            "scm": "hg", 
+            "size": 551, 
+            "updated_on": "2012-08-08T23:23:00.061571+00:00", 
+            "uuid": "{fbf04cec-8566-49e9-887d-db1666bcd8d1}"
+        }
+    ]
+}

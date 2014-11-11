@@ -1,0 +1,66 @@
+{
+    "_id": {
+        "$oid": "5432caeea7ef6722d900e5e2"
+    }, 
+    "created_on": "2008-06-25T00:53:00.273366+00:00", 
+    "description": "Mercurial (hg) extension to allow commenting on commit messages.  Mainly written for practice reading & working with mercurial internals.\r\n", 
+    "fork_policy": "allow_forks", 
+    "full_name": "phlogistonjohn/tweakmsg", 
+    "has_issues": true, 
+    "has_wiki": true, 
+    "is_private": false, 
+    "language": "", 
+    "links": {
+        "avatar": {
+            "href": "https://d3oaxc4q5k2d6q.cloudfront.net/m/5f43bd71022b/img/language-avatars/default_16.png"
+        }, 
+        "clone": [
+            {
+                "href": "https://bitbucket.org/phlogistonjohn/tweakmsg", 
+                "name": "https"
+            }, 
+            {
+                "href": "ssh://hg@bitbucket.org/phlogistonjohn/tweakmsg", 
+                "name": "ssh"
+            }
+        ], 
+        "commits": {
+            "href": "https://api.bitbucket.org/2.0/repositories/phlogistonjohn/tweakmsg/commits"
+        }, 
+        "forks": {
+            "href": "https://api.bitbucket.org/2.0/repositories/phlogistonjohn/tweakmsg/forks"
+        }, 
+        "html": {
+            "href": "https://bitbucket.org/phlogistonjohn/tweakmsg"
+        }, 
+        "pullrequests": {
+            "href": "https://api.bitbucket.org/2.0/repositories/phlogistonjohn/tweakmsg/pullrequests"
+        }, 
+        "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/phlogistonjohn/tweakmsg"
+        }, 
+        "watchers": {
+            "href": "https://api.bitbucket.org/2.0/repositories/phlogistonjohn/tweakmsg/watchers"
+        }
+    }, 
+    "name": "tweakmsg", 
+    "owner": {
+        "display_name": "John Mulligan", 
+        "links": {
+            "avatar": {
+                "href": "https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2009/Nov/07/Screenshot1_avatar.png"
+            }, 
+            "html": {
+                "href": "https://bitbucket.org/phlogistonjohn"
+            }, 
+            "self": {
+                "href": "https://api.bitbucket.org/2.0/users/phlogistonjohn"
+            }
+        }, 
+        "username": "phlogistonjohn"
+    }, 
+    "scm": "hg", 
+    "size": 7085, 
+    "updated_on": "2012-06-24T17:32:27.458855+00:00", 
+    "uuid": "{59299fb9-3695-4e0c-b8ca-836888b83315}"
+}

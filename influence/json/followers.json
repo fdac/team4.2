@@ -1,0 +1,37 @@
+{
+    "_id": {
+        "$oid": "54453791a7ef67567e4b7826"
+    }, 
+    "url": "https://bitbucket.org/api/2.0/users/00Davo/followers", 
+    "values": [
+        {
+            "created_on": "2012-07-08T13:04:19.717689+00:00", 
+            "display_name": "Benjamin Brent", 
+            "links": {
+                "avatar": {
+                    "href": "https://secure.gravatar.com/avatar/f9a0277b180833dc3a1488b6634b438b?d=https%3A%2F%2Fd3oaxc4q5k2d6q.cloudfront.net%2Fm%2F7aaf1677069c%2Fimg%2Fdefault_avatar%2F32%2Fuser_blue.png&s=32"
+                }, 
+                "followers": {
+                    "href": "https://bitbucket.org/api/2.0/users/benjaminbrent/followers"
+                }, 
+                "following": {
+                    "href": "https://bitbucket.org/api/2.0/users/benjaminbrent/following"
+                }, 
+                "html": {
+                    "href": "https://bitbucket.org/benjaminbrent"
+                }, 
+                "repositories": {
+                    "href": "https://bitbucket.org/api/2.0/repositories/benjaminbrent"
+                }, 
+                "self": {
+                    "href": "https://bitbucket.org/api/2.0/users/benjaminbrent"
+                }
+            }, 
+            "location": "", 
+            "type": "user", 
+            "username": "benjaminbrent", 
+            "uuid": "{8cfe6d49-0a5a-4c2c-a5e7-4db5cee76cd9}", 
+            "website": ""
+        }
+    ]
+}

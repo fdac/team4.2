@@ -1,0 +1,26 @@
+{
+    "_id": {
+        "$oid": "54343057a7ef6728dc992112"
+    }, 
+    "parent": {
+        "$oid": "5432caeea7ef6722d900e5e2"
+    }, 
+    "url": "https://api.bitbucket.org/2.0/repositories/phlogistonjohn/tweakmsg/watchers", 
+    "values": [
+        {
+            "display_name": "Charleno Pires", 
+            "links": {
+                "avatar": {
+                    "href": "https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2013/Aug/28/charlenopires-avatar-3831908561-7_avatar.png"
+                }, 
+                "html": {
+                    "href": "https://bitbucket.org/charlenopires"
+                }, 
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/users/charlenopires"
+                }
+            }, 
+            "username": "charlenopires"
+        }
+    ]
+}

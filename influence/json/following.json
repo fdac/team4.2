@@ -1,0 +1,37 @@
+{
+    "_id": {
+        "$oid": "5446fea9a7ef675d633f11fb"
+    }, 
+    "url": "https://bitbucket.org/api/2.0/users/-/following", 
+    "values": [
+        {
+            "created_on": "2012-08-28T16:47:21+00:00", 
+            "display_name": "Michael Frauenholtz", 
+            "links": {
+                "avatar": {
+                    "href": "https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2013/Oct/31/mafrauen-avatar-1291174345-4_avatar.png"
+                }, 
+                "followers": {
+                    "href": "https://bitbucket.org/api/2.0/users/mafrauen/followers"
+                }, 
+                "following": {
+                    "href": "https://bitbucket.org/api/2.0/users/mafrauen/following"
+                }, 
+                "html": {
+                    "href": "https://bitbucket.org/mafrauen"
+                }, 
+                "repositories": {
+                    "href": "https://bitbucket.org/api/2.0/repositories/mafrauen"
+                }, 
+                "self": {
+                    "href": "https://bitbucket.org/api/2.0/users/mafrauen"
+                }
+            }, 
+            "location": "Austin", 
+            "type": "user", 
+            "username": "mafrauen", 
+            "uuid": "{d584d292-d032-4483-bc78-e78423d633ad}", 
+            "website": "http://frauenholtz.com/"
+        }
+    ]
+}

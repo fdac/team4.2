@@ -1,0 +1,123 @@
+{
+    "_id": {
+        "$oid": "544957ac30c184784a5c7625"
+    }, 
+    "parent": {
+        "$oid": "5432ce70a7ef6722d90283ab"
+    }, 
+    "url": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests", 
+    "values": [
+        {
+            "author": {
+                "display_name": "Anthony V\u00e9rez", 
+                "links": {
+                    "avatar": {
+                        "href": "https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2010/Nov/11/avatar4_avatar.jpeg"
+                    }, 
+                    "html": {
+                        "href": "https://bitbucket.org/netantho"
+                    }, 
+                    "self": {
+                        "href": "https://api.bitbucket.org/2.0/users/netantho"
+                    }
+                }, 
+                "username": "netantho"
+            }, 
+            "close_source_branch": false, 
+            "closed_by": null, 
+            "created_on": "2012-09-14T14:53:54.868039+00:00", 
+            "description": "R0801 report id renamed to RP0801 to be able to disable the similarities report.", 
+            "destination": {
+                "branch": {
+                    "name": "default"
+                }, 
+                "commit": {
+                    "hash": "a8e0d01488a1", 
+                    "links": {
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/commit/a8e0d01488a1"
+                        }
+                    }
+                }, 
+                "repository": {
+                    "full_name": "lothiraldan/pylint-sprint-pyconfr-2012", 
+                    "links": {
+                        "avatar": {
+                            "href": "https://d3oaxc4q5k2d6q.cloudfront.net/m/bc2c3d924a20/img/language-avatars/python_16.png"
+                        }, 
+                        "html": {
+                            "href": "https://bitbucket.org/lothiraldan/pylint-sprint-pyconfr-2012"
+                        }, 
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012"
+                        }
+                    }, 
+                    "name": "Pylint Sprint Pyconfr 2012"
+                }
+            }, 
+            "id": 2, 
+            "links": {
+                "activity": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests/2/activity"
+                }, 
+                "approve": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests/2/approve"
+                }, 
+                "comments": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests/2/comments"
+                }, 
+                "commits": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests/2/commits"
+                }, 
+                "decline": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests/2/decline"
+                }, 
+                "diff": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests/2/diff"
+                }, 
+                "html": {
+                    "href": "https://bitbucket.org/lothiraldan/pylint-sprint-pyconfr-2012/pull-request/2"
+                }, 
+                "merge": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests/2/merge"
+                }, 
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/lothiraldan/pylint-sprint-pyconfr-2012/pullrequests/2"
+                }
+            }, 
+            "merge_commit": null, 
+            "reason": "", 
+            "source": {
+                "branch": {
+                    "name": "default"
+                }, 
+                "commit": {
+                    "hash": "280f3b27ad28", 
+                    "links": {
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/netantho/pylint-sprint-pyconfr-2012/commit/280f3b27ad28"
+                        }
+                    }
+                }, 
+                "repository": {
+                    "full_name": "netantho/pylint-sprint-pyconfr-2012", 
+                    "links": {
+                        "avatar": {
+                            "href": "https://d3oaxc4q5k2d6q.cloudfront.net/m/bc2c3d924a20/img/language-avatars/python_16.png"
+                        }, 
+                        "html": {
+                            "href": "https://bitbucket.org/netantho/pylint-sprint-pyconfr-2012"
+                        }, 
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/netantho/pylint-sprint-pyconfr-2012"
+                        }
+                    }, 
+                    "name": "Pylint Sprint Pyconfr 2012"
+                }
+            }, 
+            "state": "OPEN", 
+            "title": "fix R0801 similarities bug. Closes #63424", 
+            "updated_on": "2012-09-17T17:45:43.421124+00:00"
+        }
+    ]
+}
