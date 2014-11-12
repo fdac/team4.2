@@ -10,7 +10,10 @@ for line in quality:
 
 count = 0
 contributions = json.load(userContrib)
-print contributions['ariel.calzada@gmail.com']
+# print contributions['ariel.calzada@gmail.com']
+for user in contributions:
+  print user
+  sys.exit()
 # for line in userContrib:
 
   # splitline = line.split(';')
