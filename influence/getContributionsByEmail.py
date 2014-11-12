@@ -10,10 +10,11 @@ for line in infile:
   authors = splitline[4].split(':')
   repo = splitline[0]
   for author in authors:
-    if author in contributions:
-      contributions[author].append(repo)
-    else:
-      contributions[author] = [repo]
+    if author != '':
+      if author in contributions:
+        contributions[author].append(repo)
+      else:
+        contributions[author] = [repo]
   # forks.append(int(splitline[2]))
   if(count == 10):
     break
