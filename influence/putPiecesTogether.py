@@ -9,11 +9,24 @@ for line in quality:
   quality_list.append(line)
 
 count = 0
+contribCount = 0
+qualityCount = 0
 contributions = json.load(userContrib)
 # print contributions['ariel.calzada@gmail.com']
 for user in contributions:
-  print user
-  sys.exit()
+  repos = contributions[user]
+  contribCount = len(repos)
+  for repo in repos:
+    if repo in quality_list:
+      qualityCount += 1
+  outfile.write(user + ';' + contribCount + ';' + qualityCount + '\n')
+  contribCount = 0
+  qualityCount = 0
+  if(count % 1000 == 0):
+    print str(count)
+  count += 1
+  # print user
+  # sys.exit()
 # for line in userContrib:
 
   # splitline = line.split(';')
