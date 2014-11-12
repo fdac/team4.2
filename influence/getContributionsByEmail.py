@@ -16,8 +16,8 @@ for line in infile:
       else:
         contributions[author] = [repo]
   # forks.append(int(splitline[2]))
-  if(count == 10):
-    break
+  #if(count == 10):
+    #break
   if(count % 1000 == 0):
     print str(count)
   # if(int(splitline[2]) != 0):
