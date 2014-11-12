@@ -19,7 +19,7 @@ for user in contributions:
   for repo in repos:
     if repo in quality_list:
       qualityCount += 1
-  outfile.write(user + ';' + contribCount + ';' + qualityCount + '\n')
+  outfile.write(user + ';' + str(contribCount) + ';' + str(qualityCount) + '\n')
   contribCount = 0
   qualityCount = 0
   if(count % 1000 == 0):
