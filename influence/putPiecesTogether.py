@@ -6,7 +6,7 @@ outfile = open('userMetrics.r', 'w')
 
 quality_list = []
 for line in quality:
-  quality_list.append(line)
+  quality_list.append(line.replace('\n',''))
 
 count = 0
 contribCount = 0
